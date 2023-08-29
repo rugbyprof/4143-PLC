@@ -1,7 +1,7 @@
 # 4143 Programming Language Concepts
 
 ### Roster
-<a href="https://docs.google.com/spreadsheets/d/1usKIlclQ-eyLAid7WBuLwiFzxW4vc1VcJIIdjcIH0vI/edit?usp=sharing"><a href="https://imgbox.com/I0dU5rrM" target="_blank"><img src="https://thumbs2.imgbox.com/35/7c/I0dU5rrM_t.png" alt="image host" width="30"/></a>Class Roster</a>
+<a href="https://docs.google.com/spreadsheets/d/1usKIlclQ-eyLAid7WBuLwiFzxW4vc1VcJIIdjcIH0vI/edit?usp=sharing"><a href="https://imgbox.com/I0dU5rrM" target="_blank"><img src="https://images2.imgbox.com/38/ed/t8796trL_o.png" alt="image host" width="20"/></a> Class Roster</a>
 
 ### General Course Info
 - __Days:__ TTh 9:30 q.m. - 10:50 a.m. 

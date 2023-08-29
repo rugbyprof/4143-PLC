@@ -17,7 +17,7 @@ If you have had me before, and this seems **TL;DR** make sure you:
 
 ---
 
-<a href="https://imgbox.com/CvSaToQc" target="_blank"><img src="https://thumbs2.imgbox.com/e2/a8/CvSaToQc_t.png" alt="image host"/></a>
+<img src="https://images2.imgbox.com/93/d0/u9vM34kF_o.png" alt="image host" width="150"/>
 
 
 
@@ -55,12 +55,12 @@ Now that we have our communication client set up, we probably need to start gett
 ### Class Roster
 ---
 
-<a href="https://imgbox.com/ywxsN67C" target="_blank"><img src="https://thumbs2.imgbox.com/c6/3a/ywxsN67C_t.png" alt="image host" width="90"/></a>
+<a href="https://imgbox.com/ywxsN67C" target="_blank"><img src="https://images2.imgbox.com/38/ed/t8796trL_o.png" alt="image host" width="90"/></a>
 
 #### Update the Class Roster:
 
 - Here is a link to our class roster on google docs: <a href="https://docs.google.com/spreadsheets/d/1usKIlclQ-eyLAid7WBuLwiFzxW4vc1VcJIIdjcIH0vI/edit?usp=sharing">
-  <img src="https://thumbs2.imgbox.com/c6/3a/ywxsN67C_t.png" alt="image host" width="20"/><a href="https://docs.google.com/spreadsheets/d/1usKIlclQ-eyLAid7WBuLwiFzxW4vc1VcJIIdjcIH0vI/edit?usp=sharing">Class Roster</a>
+  <img src="https://images2.imgbox.com/38/ed/t8796trL_o.png" width="20"/> <a href="https://docs.google.com/spreadsheets/d/1usKIlclQ-eyLAid7WBuLwiFzxW4vc1VcJIIdjcIH0vI/edit?usp=sharing">Class Roster</a>
 
 - Update the roster by adding your information to it.
 
