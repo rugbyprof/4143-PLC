@@ -9,15 +9,17 @@ All of these are important! So do them with expedience.
 
 If you have had me before, and this seems **TL;DR** make sure you:
 
-1. Are on my slack channel: https://griffin-courses.slack.com
-2. Add yourself to the class <a href="hhttps://docs.google.com/spreadsheets/d/1usKIlclQ-eyLAid7WBuLwiFzxW4vc1VcJIIdjcIH0vI/edit?usp=sharing">roster</a>
+1. Are on my slack channel: https://griffin-courses.slack.com ?
+2. Add yourself to the class <a href="https://docs.google.com/spreadsheets/d/1usKIlclQ-eyLAid7WBuLwiFzxW4vc1VcJIIdjcIH0vI/edit?usp=sharing">roster</a>
 3. Make sure you add an image or avatar to your slack profile. (These will also be placed into the class <a href="https://docs.google.com/spreadsheets/d/1usKIlclQ-eyLAid7WBuLwiFzxW4vc1VcJIIdjcIH0vI/edit?usp=sharing">roster</a>).
 
 ### Team Chat
 
 ---
 
-<a href="https://imgbox.com/mhztyZq5" target="_blank"><img src="https://thumbs2.imgbox.com/58/73/mhztyZq5_t.png" alt="image host" width="120"/></a>
+<a href="https://imgbox.com/CvSaToQc" target="_blank"><img src="https://thumbs2.imgbox.com/e2/a8/CvSaToQc_t.png" alt="image host"/></a>
+
+
 
 
 The first step in doing well in any of my courses is establishing a base of communication. Why? Not everything can be done while we are in class.
@@ -57,8 +59,8 @@ Now that we have our communication client set up, we probably need to start gett
 
 #### Update the Class Roster:
 
-- Here is a link to our class roster on google docs: <a href="https://docs.google.com/spreadsheets/d/1Ul2tjl74iJoQRd6qQ6leq0M5kmy-lEUSc5PQD91JK6c/edit?usp=sharing">
-  <img src="https://thumbs2.imgbox.com/c6/3a/ywxsN67C_t.png" alt="image host" width="20"/><a href="https://docs.google.com/spreadsheets/d/1Ul2tjl74iJoQRd6qQ6leq0M5kmy-lEUSc5PQD91JK6c/edit?usp=sharing">Class Roster</a>
+- Here is a link to our class roster on google docs: <a href="https://docs.google.com/spreadsheets/d/1usKIlclQ-eyLAid7WBuLwiFzxW4vc1VcJIIdjcIH0vI/edit?usp=sharing">
+  <img src="https://thumbs2.imgbox.com/c6/3a/ywxsN67C_t.png" alt="image host" width="20"/><a href="https://docs.google.com/spreadsheets/d/1usKIlclQ-eyLAid7WBuLwiFzxW4vc1VcJIIdjcIH0vI/edit?usp=sharing">Class Roster</a>
 
 - Update the roster by adding your information to it.
 
