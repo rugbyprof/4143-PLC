@@ -14,7 +14,7 @@
 - [__Last Day of Class:__](https://msutexas.edu/registrar/_assets/files/pdfs/acadcal2224.pdf) Friday December 8<sup>th</sup>
 - [__Final Exam:__](https://msutexas.edu/registrar/_assets/files/pdfs/finalexamschedulespringfall2023.pdf) Tuesday December 12<sup>th</sup> from 8:00 pm - 10:30 pm
 
-## Course Topics
+## Weekly Adventures
 
 - [ ] Introduction to Go
   -  [ ] Introduction to Go programming language
@@ -71,6 +71,25 @@
   -  [ ] Project presentations and feedback
   -  [ ] Recap and review of course concepts
   -  [ ] Q&A session and open discussion
+
+## Broad Topics
+
+- [ ] **Names, Binding, and Scope (Declarations)**  
+   - How do we give names to entities? And when we encounter a name, how do we know which entity it refers to?
+- [ ] **Evaluation (Expressions)**
+   - How do we express computations, using values and operators?
+- [ ] **Execution (Control Flow)** 
+   - How to we organize computation in time? What actions or effects can we produce?
+- [ ] **Types**  
+   - How do we classify values so that they may behave in certain, predictable ways?
+- [ ] **Functional Abstraction (Subroutines and Coroutines)** 
+   - How can we abstract computations into chunks so that we can invoke them whenever we need them?
+- [ ] **Data Abstraction (Objects and Modules)**
+   - How do we make little bundles of data together with behavior?
+- [ ] **Concurrency**  
+   - How do we arrange to do different computations at the “same” time (safely)?
+- [ ] **Metaprogramming**  
+   - How can our programs know about themselves? How can we answer questions about the code itself?
 
 
 ## Grading
