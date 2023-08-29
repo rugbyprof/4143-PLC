@@ -16,36 +16,76 @@
 
 ## Course Topics
 
-- [ ] Math
-  - [ ] Combinatorics
-  - [ ] Basic number theory
-- [ ] Standard libraries and data structures
-- [ ] Optimizations:
-  - [ ] Complete Search, Backtracking, Pruning
-  - [ ] Divide & Conquer
-  - [ ] Greedy Algorithms
-  - [ ] Dynamic programming
-- [ ] Graph algorithms:
-  - [ ] Graph Traversal
-  - [ ] Topological Sorting
-  - [ ] Connectivity
-  - [ ] Minimum Spanning Trees
-  - [ ] Shortest Paths
-- [ ] String algorithms
-- [ ] Others given time
+- [ ] Introduction to Go
+  -  [ ] Introduction to Go programming language
+  -  [ ] Setting up the Go development environment
+  -  [ ] Go syntax and basic program structure
+  -  [ ] Variables, data types, and basic operations
+  -  [ ] Control flow statements (if/else, loops)
+  -  [ ] Functions and packages in Go
+
+- [ ] Data Types and Structures
+  -  [ ] Complex data types (arrays, slices, maps, structs)
+  -  [ ] Working with strings and characters
+  -  [ ] Pointers and memory management
+  -  [ ] Error handling in Go
+  -  [ ] File I/O operations
+
+- [ ] Concurrency and Goroutines
+  -  [ ] Understanding concurrency in Go
+  -  [ ] Goroutines and channels
+  -  [ ] Synchronization and data sharing
+  -  [ ] Patterns for concurrent programming
+  -  [ ] Error handling in concurrent programs
+
+- [ ] Object-Oriented Programming in Go
+  -  [ ] Structs and methods in Go
+  -  [ ] Encapsulation and data hiding
+  -  [ ] Inheritance and composition
+  -  [ ] Polymorphism and interfaces
+  -  [ ] Object-oriented design principles in Go
+
+- [ ] Error Handling and Testing
+  -  [ ] Error handling best practices in Go
+  -  [ ] Panic and recover mechanisms
+  -  [ ] Unit testing in Go (using the testing package)
+  -  [ ] Writing testable code in Go
+  -  [ ] Code coverage and test automation
+
+- [ ] Advanced Topics in Go
+  -  [ ] Reflection and runtime type information
+  -  [ ] Concurrency patterns (e.g., worker pools, fan-out/fan-in)
+  -  [ ] Memory optimization and profiling
+  -  [ ] Benchmarking and performance tuning
+  -  [ ] Working with external libraries and APIs
+
+- [ ] Web Development with Go
+  -  [ ] Overview of web development in Go
+  -  [ ] HTTP server programming in Go
+  -  [ ] Routing and handling requests
+  -  [ ] Middleware and authentication
+  -  [ ] Introduction to web frameworks (e.g., Gin, Echo)
+
+- [ ] Final Projects and Wrap-up
+  -  [ ] Student final projects: Implement a significant Go application
+  -  [ ] Project presentations and feedback
+  -  [ ] Recap and review of course concepts
+  -  [ ] Q&A session and open discussion
+
 
 ## Grading
 
 Will be based on number of problems solved. Full credit for on time solutions. Half credit for late submissions. Some credit for accepted solutions with issues (e.g. presentation errors),
 
-| Categories      | Portion of Course | \|\| | Letter Grade | Grade Range |
-| :-------------- | :---------------: | ---- | :----------: | :---------: |
-| Solved Problems |        65%        | \|\| |      A       |   89-100    |
-| Github          |        10%        | \|\| |      B       |    79-88    |
-| Participation   |        5%         | \|\| |      C       |    69-78    |
-| Presentation    |        10%        | \|\| |      D       |    59-68    |
-| Project         |        10%        | \|\| |      F       |  below 59   |
-|                 |                   | \|\| |              |             |
+| Categories    | Portion of Course | \|\| | Letter Grade | Grade Range |
+| :------------ | :---------------: | ---- | :----------: | :---------: |
+| Exames        |        45%        | \|\| |      A       |   90-100    |
+| Github        |        10%        | \|\| |      B       |    80-89    |
+| Participation |        5%         | \|\| |      C       |    70-79    |
+| Presentation  |        10%        | \|\| |      D       |    60-69    |
+| Project       |        10%        | \|\| |      F       |  below 60   |
+| Final         |        20%        | \|\| |              |             |
+|               |                   | \|\| |              |             |
 
 >**Participation**: Obviously this has to do with going to class, asking questions, and generally being a physical part of class. But even more importantly it has to do with interacting with our class on Slack. Responding to queries on Slack either with text response or an emoticon reaction to a post. Asking me questions with direct message is a huge help, as I can turn that into (what the military calls) an "overhead correction". Most questions help bring to my attention things that need clarification for everyone. I will be gauging everyone's participation and the best guarantee is on slack as that creates a digital record.
 
