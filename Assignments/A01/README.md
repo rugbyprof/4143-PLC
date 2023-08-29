@@ -17,7 +17,7 @@ If you have had me before, and this seems **TL;DR** make sure you:
 
 ---
 
-<img src="https://images2.imgbox.com/93/d0/u9vM34kF_o.png" alt="image host" width="150"/>
+<img src="https://images2.imgbox.com/93/d0/u9vM34kF_o.png" alt="image host" width="100"/>
 
 
 
@@ -55,7 +55,7 @@ Now that we have our communication client set up, we probably need to start gett
 ### Class Roster
 ---
 
-<a href="https://imgbox.com/ywxsN67C" target="_blank"><img src="https://images2.imgbox.com/38/ed/t8796trL_o.png" alt="image host" width="90"/></a>
+<a href="https://imgbox.com/ywxsN67C" target="_blank"><img src="https://images2.imgbox.com/38/ed/t8796trL_o.png" alt="image host" width="100"/></a>
 
 #### Update the Class Roster:
 
