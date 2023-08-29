@@ -11,6 +11,3 @@
 * https://cs.lmu.edu/~ray/notes/introgo/
 
 * https://en.algorithmica.org/hpc/cpu-cache/cache-lines/
-
-
-607 = 99%
