@@ -14,64 +14,6 @@
 - [__Last Day of Class:__](https://msutexas.edu/registrar/_assets/files/pdfs/acadcal2224.pdf) Friday December 8<sup>th</sup>
 - [__Final Exam:__](https://msutexas.edu/registrar/_assets/files/pdfs/finalexamschedulespringfall2023.pdf) Tuesday December 12<sup>th</sup> from 8:00 pm - 10:30 pm
 
-## Weekly Adventures
-
-- [ ] Introduction to Go
-  -  [ ] Introduction to Go programming language
-  -  [ ] Setting up the Go development environment
-  -  [ ] Go syntax and basic program structure
-  -  [ ] Variables, data types, and basic operations
-  -  [ ] Control flow statements (if/else, loops)
-  -  [ ] Functions and packages in Go
-
-- [ ] Data Types and Structures
-  -  [ ] Complex data types (arrays, slices, maps, structs)
-  -  [ ] Working with strings and characters
-  -  [ ] Pointers and memory management
-  -  [ ] Error handling in Go
-  -  [ ] File I/O operations
-
-- [ ] Concurrency and Goroutines
-  -  [ ] Understanding concurrency in Go
-  -  [ ] Goroutines and channels
-  -  [ ] Synchronization and data sharing
-  -  [ ] Patterns for concurrent programming
-  -  [ ] Error handling in concurrent programs
-
-- [ ] Object-Oriented Programming in Go
-  -  [ ] Structs and methods in Go
-  -  [ ] Encapsulation and data hiding
-  -  [ ] Inheritance and composition
-  -  [ ] Polymorphism and interfaces
-  -  [ ] Object-oriented design principles in Go
-
-- [ ] Error Handling and Testing
-  -  [ ] Error handling best practices in Go
-  -  [ ] Panic and recover mechanisms
-  -  [ ] Unit testing in Go (using the testing package)
-  -  [ ] Writing testable code in Go
-  -  [ ] Code coverage and test automation
-
-- [ ] Advanced Topics in Go
-  -  [ ] Reflection and runtime type information
-  -  [ ] Concurrency patterns (e.g., worker pools, fan-out/fan-in)
-  -  [ ] Memory optimization and profiling
-  -  [ ] Benchmarking and performance tuning
-  -  [ ] Working with external libraries and APIs
-
-- [ ] Web Development with Go
-  -  [ ] Overview of web development in Go
-  -  [ ] HTTP server programming in Go
-  -  [ ] Routing and handling requests
-  -  [ ] Middleware and authentication
-  -  [ ] Introduction to web frameworks (e.g., Gin, Echo)
-
-- [ ] Final Projects and Wrap-up
-  -  [ ] Student final projects: Implement a significant Go application
-  -  [ ] Project presentations and feedback
-  -  [ ] Recap and review of course concepts
-  -  [ ] Q&A session and open discussion
-
 ## Broad Topics
 
 - [ ] **Names, Binding, and Scope (Declarations)**  
@@ -92,13 +34,145 @@
    - How can our programs know about themselves? How can we answer questions about the code itself?
 
 
+## Semester Schedule
+
+|   Weeks   | Description                                                     |
+| :-------: | :-------------------------------------------------------------- |
+|  **1-2**  | **Introduction and Names, Binding, and Scope**                  |
+|     ▢     | Introduction to programming languages and their importance      |
+|     ▢     | Syntax vs semantics                                             |
+|     ▢     | Compilation vs interpretation                                   |
+|     ▢     | Names, identifiers, and keywords                                |
+|     ▢     | Binding time: static, dynamic, early, and late binding          |
+|     ▢     | Scope: lexical vs dynamic scoping                               |
+|     ▢     | Nested scopes and scope rules                                   |
+|     ▢     | Static and dynamic scoping examples                             |
+|  **3-4**  | **Evaluation (Expressions) and Execution (Control Flow)**       |
+|     ▢     | Expressions and their evaluation                                |
+|     ▢     | Precedence and associativity                                    |
+|     ▢     | Order of evaluation                                             |
+|     ▢     | Short-circuiting and its effects                                |
+|     ▢     | Control structures: sequencing, selection, iteration            |
+|     ▢     | Conditionals: if, if-else, switch                               |
+|     ▢     | Loops: while, for, foreach                                      |
+|     ▢     | Control flow pitfalls and examples                              |
+|  **5-6**  | **Types**                                                       |
+|     ▢     | Data types and their significance                               |
+|     ▢     | Static typing vs dynamic typing                                 |
+|     ▢     | Strong typing vs weak typing                                    |
+|     ▢     | Type checking and type inference                                |
+|     ▢     | Primitive types: integers, floating-point, booleans, characters |
+|     ▢     | Composite types: arrays, records, tuples                        |
+|     ▢     | Type compatibility and type coercion                            |
+|  **7-8**  | **Functional Abstraction (Subroutines and Coroutines)**         |
+|     ▢     | Introduction to subroutines and functions                       |
+|     ▢     | Function declaration, parameters, and return values             |
+|     ▢     | Call stack and activation records                               |
+|     ▢     | Recursion and tail recursion                                    |
+|     ▢     | Higher-order functions and function composition                 |
+|     ▢     | Introduction to coroutines and cooperative multitasking         |
+|     ▢     | Coroutines vs threads                                           |
+|     ▢     | Coroutine synchronization and communication                     |
+| **9-10**  | **Data Abstraction (Objects and Modules)**                      |
+|     ▢     | Introduction to data abstraction                                |
+|     ▢     | Object-oriented programming principles                          |
+|     ▢     | Classes, objects, methods, and attributes                       |
+|     ▢     | Inheritance and polymorphism                                    |
+|     ▢     | Encapsulation and information hiding                            |
+|     ▢     | Introduction to modules and modularity                          |
+|     ▢     | Module interfaces and implementations                           |
+|     ▢     | Packaging, namespaces, and access control                       |
+| **11-12** | **Concurrency**                                                 |
+|     ▢     | Introduction to concurrency and parallelism                     |
+|     ▢     | Threads vs processes                                            |
+|     ▢     | Thread synchronization and coordination                         |
+|     ▢     | Race conditions and critical sections                           |
+|     ▢     | Mutual exclusion and semaphores                                 |
+|     ▢     | Deadlocks and livelocks                                         |
+|     ▢     | Parallel programming models                                     |
+|     ▢     | Concurrent programming pitfalls                                 |
+| **13-14** | **Metaprogramming**                                             |
+|     ▢     | Introduction to metaprogramming                                 |
+|     ▢     | Macros and code generation                                      |
+|     ▢     | Reflection and introspection                                    |
+|     ▢     | Compile-time vs runtime metaprogramming                         |
+|     ▢     | Template-based metaprogramming                                  |
+|     ▢     | Aspect-oriented programming                                     |
+|     ▢     | Language-integrated query                                       |
+|     ▢     | Examples of metaprogramming in various languages                |
+|  **15**   | **Review and Future Trend**                                     |
+|     ▢     | Recap of key concepts from the course                           |
+|     ▢     | Discuss emerging programming language trends                    |
+|     ▢     | Domain-specific languages (DSLs)                                |
+|     ▢     | Metaprogramming and code generation advancements                |
+|     ▢     | Language support for parallelism and distributed systems        |
+|     ▢     | Language design challenges and opportunities                    |
+
+## Adventures in GoLang
+
+- [ ] Introduction to Go
+  - [ ] Introduction to Go programming language
+  - [ ] Setting up the Go development environment
+  - [ ] Go syntax and basic program structure
+  - [ ] Variables, data types, and basic operations
+  - [ ] Control flow statements (if/else, loops)
+  - [ ] Functions and packages in Go
+
+- [ ] Data Types and Structures
+  - [ ] Complex data types (arrays, slices, maps, structs)
+  - [ ] Working with strings and characters
+  - [ ] Pointers and memory management
+  - [ ] Error handling in Go
+  - [ ] File I/O operations
+
+- [ ] Concurrency and Goroutines
+  - [ ] Understanding concurrency in Go
+  - [ ] Goroutines and channels
+  - [ ] Synchronization and data sharing
+  - [ ] Patterns for concurrent programming
+  - [ ] Error handling in concurrent programs
+
+- [ ] Object-Oriented Programming in Go
+  - [ ] Structs and methods in Go
+  - [ ] Encapsulation and data hiding
+  - [ ] Inheritance and composition
+  - [ ] Polymorphism and interfaces
+  - [ ] Object-oriented design principles in Go
+
+- [ ] Error Handling and Testing
+  - [ ] Error handling best practices in Go
+  - [ ] Panic and recover mechanisms
+  - [ ] Unit testing in Go (using the testing package)
+  - [ ] Writing testable code in Go
+  - [ ] Code coverage and test automation
+
+- [ ] Advanced Topics in Go
+  - [ ] Reflection and runtime type information
+  - [ ] Concurrency patterns (e.g., worker pools, fan-out/fan-in)
+  - [ ] Memory optimization and profiling
+  - [ ] Benchmarking and performance tuning
+  - [ ] Working with external libraries and APIs
+
+- [ ] Web Development with Go
+  - [ ] Overview of web development in Go
+  - [ ] HTTP server programming in Go
+  - [ ] Routing and handling requests
+  - [ ] Middleware and authentication
+  - [ ] Introduction to web frameworks (e.g., Gin, Echo)
+
+- [ ] Final Projects and Wrap-up
+  - [ ] Student final projects: Implement a significant Go application
+  - [ ] Project presentations and feedback
+  - [ ] Recap and review of course concepts
+  - [ ] Q&A session and open discussion
+
 ## Grading
 
 Will be based on number of problems solved. Full credit for on time solutions. Half credit for late submissions. Some credit for accepted solutions with issues (e.g. presentation errors),
 
 | Categories    | Portion of Course | ::: | Letter Grade | Grade Range |
 | :------------ | :---------------: | --- | :----------: | :---------: |
-| Exames        |        45%        | ::: |      A       |   90-100    |
+| Exams         |        45%        | ::: |      A       |   90-100    |
 | Github        |        10%        | ::: |      B       |    80-89    |
 | Participation |        5%         | ::: |      C       |    70-79    |
 | Presentation  |        10%        | ::: |      D       |    60-69    |
