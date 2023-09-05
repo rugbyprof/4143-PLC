@@ -28,8 +28,9 @@ In all honesty you should have done something similar to this already based or d
 - Create a `README.md` file in your project folder that follows [these](../../Resources/03-Readmees/README.md) guidelines. 
 - Update your `Assignments` folder README.md to include a link to this project. Remember [this](../A02/README.md)?
 - Your assignments folder README should include a table similar to the one below: 
-- 
-#### Assignments Readme Table
+
+
+#### Example Assignments Readme Table
 |   #   | Folder Link             | Assignment Description                 |
 | :---: | ----------------------- | -------------------------------------- |
 |   1   | [A01](../A01/README.md) | [Establishing Comms](../A01/README.md) |
