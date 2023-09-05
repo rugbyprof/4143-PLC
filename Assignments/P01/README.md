@@ -41,7 +41,9 @@ up with the D2L gradebook. I can clarify in class if someones asks.
 └── 4143-PLC
     └── Assignments
         ├── A01
+        │   └── README.md
         ├── A02
+        │   └── README.md
         └── P01
             ├── README.md
             ├── main.go
