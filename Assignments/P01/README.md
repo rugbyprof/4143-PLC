@@ -29,6 +29,21 @@ In all honesty you should have done something similar to this already based or d
 - Update your `Assignments` folder README.md to include a link to this project. Remember [this](../A02/README.md)?
 - Your assignments folder README should include a table similar to the one below: 
 
+#### Directory Structure of P01
+
+```
+.
+└── 4143-PLC
+    └── Assignments
+        ├── A01
+        ├── A02
+        └── P01
+            ├── README.md
+            ├── main.go
+            └── mascot
+                └── mascot.go
+```
+
 
 #### Example Assignments Readme Table
 |   #   | Folder Link             | Assignment Description                 |
@@ -36,6 +51,8 @@ In all honesty you should have done something similar to this already based or d
 |   1   | [A01](../A01/README.md) | [Establishing Comms](../A01/README.md) |
 |   2   | [A02](../A02/README.md) | [Code Repository](../A02/README.md)    |
 |   3   | [P01](../P01/README.md) | [Run a Go Program](../P01/README.md)   |
+
+
 
 
 
