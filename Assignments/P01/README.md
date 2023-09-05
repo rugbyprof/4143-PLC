@@ -29,7 +29,12 @@ In all honesty you should have done something similar to this already based or d
 - Update your `Assignments` folder README.md to include a link to this project. Remember [this](../A02/README.md)?
 - Your assignments folder README should include a table similar to the one below: 
 
-#### Directory Structure of P01
+#### Directory Structure of Assignments Folder
+
+Here is a snapshot up to this point of how your Assignments folder should 
+look. Even if there is nothing to upload for one our course assignments, 
+you should create a folder and a README so your assignments folder matches 
+up with the D2L gradebook. I can clarify in class if someones asks.
 
 ```
 .
