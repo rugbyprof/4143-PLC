@@ -1,4 +1,5 @@
 ## Course: Programming Language Concepts - Using Go
+#### Due: None
 
 ### Weeks 1-2: Introduction to Go
 - Introduction to Go programming language
