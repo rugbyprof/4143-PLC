@@ -1,3 +1,8 @@
+---
+marp: true
+theme: gradient
+paginate: true
+---
 
 # Slide Title: Arrays and Slices in GoLang
 ## Declaration, Usage, and Alteration

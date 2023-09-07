@@ -1,3 +1,9 @@
+---
+marp: true
+theme: gradient
+paginate: true
+---
+
 # If Else Statements
 ## Making Decisions in Code
 

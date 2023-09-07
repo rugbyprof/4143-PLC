@@ -1,4 +1,10 @@
-Loops in GoLang
+---
+marp: true
+theme: gradient
+paginate: true
+---
+
+# Loops in GoLang
 ## Iteration and Repetition
 
 Looking at various looping constructs in Go as compared to Python and C++

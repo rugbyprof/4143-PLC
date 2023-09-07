@@ -1,3 +1,9 @@
+---
+marp: true
+theme: gradient
+paginate: true
+---
+
 # Functions in GoLang, Python, and C++
 ## Building Blocks of Reusable Code
 

@@ -1,3 +1,9 @@
+---
+marp: true
+theme: gradient
+paginate: true
+---
+
 # Validating User Input
 ## Ensuring Input Integrity
 

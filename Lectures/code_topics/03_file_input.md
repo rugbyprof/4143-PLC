@@ -2,7 +2,6 @@
 marp: true
 theme: gradient
 paginate: true
-size: 16:9
 ---
 
 
