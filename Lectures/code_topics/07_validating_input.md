@@ -9,21 +9,6 @@ paginate: true
 
 ---
 
-# Basic Input Validation in Go
-
-Use `fmt.Scan` and error handling to validate input in Go.
-
-```go
-var age int
-
-fmt.Print("Enter your age: ")
-_, err := fmt.Scan(&age)
-
-if err != nil || age < 0 {
-    fmt.Println("Invalid input. Please enter a valid age.")
-}
-```
----
 
 # Basic Input Validation in Python
 
@@ -58,24 +43,20 @@ int main() {
 ```
 ---
 
-# Loop-Based Input Validation in Go
+# Basic Input Validation in Go
 
-Loop until valid input is provided in Go.
+Use `fmt.Scan` and error handling to validate input in Go.
 
 ```go
 var age int
 
-for {
-    fmt.Print("Enter your age: ")
-    _, err := fmt.Scan(&age)
+fmt.Print("Enter your age: ")
+_, err := fmt.Scan(&age)
 
-    if err == nil && age >= 0 {
-        break
-    }
+if err != nil || age < 0 {
     fmt.Println("Invalid input. Please enter a valid age.")
 }
 ```
-
 ---
 
 # Loop-Based Input Validation in Python
@@ -120,6 +101,24 @@ int main() {
 }
 ```
 ---
+
+# Loop-Based Input Validation in Go
+
+Loop until valid input is provided in Go.
+
+```go
+var age int
+
+for {
+    fmt.Print("Enter your age: ")
+    _, err := fmt.Scan(&age)
+
+    if err == nil && age >= 0 {
+        break
+    }
+    fmt.Println("Invalid input. Please enter a valid age.")
+}
+```
 
 # Summary
 - Input validation ensures data integrity.

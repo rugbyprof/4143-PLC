@@ -15,20 +15,6 @@ paginate: true
 
 ---
 
-# Encapsulation in Go
-- Encapsulation is achieved by exporting or unexporting fields in a struct.
-- Capitalized fields are exported, while uncapitalized ones are not.
-
-```go
-package shapes
-
-type Rectangle struct {
-    Length  float64 // Exported field
-    width   float64 // Unexported field
-}
-```
-
----
 
 # Encapsulation in C++
 - In C++, encapsulation is achieved using access specifiers (`public`, `private`, `protected`) within classes.
@@ -44,17 +30,22 @@ private:
 
 ---
 
-# Polymorphism in Go
-- Polymorphism is achieved through interfaces in Go.
-- Types implicitly implement an interface if they define its methods.
+# Encapsulation in Go
+- Encapsulation is achieved by exporting or unexporting fields in a struct.
+- Capitalized fields are exported, while uncapitalized ones are not.
 
 ```go
-type Shape interface {
-    Area() float64
+package shapes
+
+type Rectangle struct {
+    Length  float64 // Exported field
+    width   float64 // Unexported field
 }
 ```
 
 ---
+
+
 
 # Polymorphism in C++
 - In C++, polymorphism is achieved through classes and inheritance.
@@ -73,17 +64,19 @@ class Rectangle : public Shape {
 
 ---
 
-# Abstraction in Go
-- Abstraction is achieved through interfaces in Go.
-- Interfaces define a set of methods without specifying the implementation.
+# Polymorphism in Go
+- Polymorphism is achieved through interfaces in Go.
+- Types implicitly implement an interface if they define its methods.
 
 ```go
-type Reader interface {
-    Read(p []byte) (n int, err error)
+type Shape interface {
+    Area() float64
 }
 ```
 
 ---
+
+
 
 # Abstraction in C++
 - In C++, abstraction is achieved using abstract base classes and pure virtual functions.
@@ -101,16 +94,22 @@ class FileReader : public Reader {
 
 ---
 
-# Comparison: Encapsulation
-- Go uses capitalized field names for exported fields.
-- C++ uses access specifiers (public, private, protected) within classes.
+# Abstraction in Go
+- Abstraction is achieved through interfaces in Go.
+- Interfaces define a set of methods without specifying the implementation.
 
 ```go
-type Rectangle struct {
-    Length  float64 // Exported field
-    Width   float64 // Unexported field
+type Reader interface {
+    Read(p []byte) (n int, err error)
 }
 ```
+
+---
+
+# Comparison: Encapsulation
+
+- C++ uses access specifiers (public, private, protected) within classes.
+- Go uses capitalized field names for exported fields.
 
 ```cpp
 class Rectangle {
@@ -121,17 +120,18 @@ private:
 };
 ```
 
+```go
+type Rectangle struct {
+    Length  float64 // Exported field
+    Width   float64 // Unexported field
+}
+```
+
 ---
 
 # Comparison: Polymorphism
-- Go uses interfaces to define polymorphic behavior.
 - C++ uses classes and inheritance with virtual functions.
-
-```go
-type Shape interface {
-    Area() float64
-}
-```
+- Go uses interfaces to define polymorphic behavior.
 
 ```cpp
 class Shape {
@@ -143,18 +143,21 @@ class Rectangle : public Shape {
     // Implement Area() in Rectangle
 };
 ```
+```go
+type Shape interface {
+    Area() float64
+}
+```
+
 
 ---
 
 # Comparison: Abstraction
-- Go uses interfaces to define abstract behavior.
-- C++ uses abstract base classes with pure virtual functions.
 
-```go
-type Reader interface {
-    Read(p []byte) (n int, err error)
-}
-```
+- C++ uses abstract base classes with pure virtual functions.
+- Go uses interfaces to define abstract behavior.
+
+
 
 ```cpp
 class Reader {
@@ -165,6 +168,12 @@ public:
 class FileReader : public Reader {
     // Implement Read() in FileReader
 };
+```
+
+```go
+type Reader interface {
+    Read(p []byte) (n int, err error)
+}
 ```
 
 ---
