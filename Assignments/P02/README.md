@@ -133,7 +133,7 @@ First we need a project folder. This will be the home of our `module` and any `p
    package main
 
    import (
-       "imageManipulator"
+       "myimageapp/imagemod"
    )
 
    func main() {
@@ -216,7 +216,7 @@ In Go, you can't have overloaded constructors like you can in some other languag
 
    import (
        "fmt"
-       "imagemod"
+       "myimageapp/imagemod"
    )
 
    func main() {
