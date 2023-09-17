@@ -144,7 +144,7 @@ First we need a project folder. This will be the home of our `module` and any `p
        im.DrawRectangle(150, 50, 560, 411)
 
        // Save the image to a file
-       im.SaveToFile("mustangs_edited.png")
+       im.SaveToFile("mustangs.png.png")
    }
    ```
 
@@ -231,7 +231,7 @@ In Go, you can't have overloaded constructors like you can in some other languag
        im.DrawRectangle(150, 50, 560, 411)
 
        // Save the modified image to a file
-       im.SaveToFile("mustangs_edited.png")
+       im.SaveToFile("mustangs.png.png")
    }
    ```
 
