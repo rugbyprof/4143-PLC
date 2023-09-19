@@ -18,6 +18,21 @@ projectFolder/
 │   └── package2.go
 ```
 
-- https://www.digitalocean.com/community/tutorials/how-to-make-http-requests-in-go
+## Overview
 
+I want to use the code from P02 and add functionality that goLang is supposed to make `easy`. However I think all of us are realizing how important dev environments are and learning the intricacies of a new language. The previous program just opened an image and drew a rectangle on said image. Lets add some convenience and robustness to our code:
+
+- Auto download an image from the web
+- Run a small web server that provides a form to enter our url. 
+
+### Future
+
+- Async requests
+- Parallel downloads
+
+
+
+### Http Requests Tutorial
+- https://www.digitalocean.com/community/tutorials/how-to-make-http-requests-in-go
+- https://zetcode.com/golang/getpostrequest/
 
