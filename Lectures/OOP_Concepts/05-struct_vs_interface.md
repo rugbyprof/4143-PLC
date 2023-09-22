@@ -91,7 +91,5 @@ func (w Warrior) Attack() int {
 - `Structs` are used for defining data structures with fields and methods
 - `Interfaces` are used for defining behavior through method signatures. 
 - In the context of D&D, `structs` represent character types with attributes, while `interfaces` represent shared actions like attacking.
-
-
-
+=
 [Previous: 04-maps.md](04-maps.md) | [Next: 06-methods_vs_functions.md](06-methods_vs_functions.md)

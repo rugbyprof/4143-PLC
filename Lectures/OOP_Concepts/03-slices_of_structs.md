@@ -40,6 +40,4 @@ In this example, `people` is a slice of `Person` structs. Each element in the `p
 
 Using slices of structs is common in `Go` for organizing and working with collections of structured data. It allows you to manage and manipulate groups of related data entities efficiently.
 
-
-
 [Previous: 02-new_keyword.md](02-new_keyword.md) | [Next: 04-maps.md](04-maps.md)

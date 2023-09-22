@@ -99,5 +99,4 @@ In this updated example:
 
 While Go doesn't have constructors like in traditional OOP languages, creating `New()` functions is a common way to achieve structured and controlled initialization of structs. This approach aligns with Go's philosophy of simplicity and explicitness.
 
-
  | [Next: 02-new_keyword.md](02-new_keyword.md)

@@ -27,5 +27,4 @@ In Go, naming conventions such as using `New` in front of a function name and ca
 
 - These naming conventions contribute to code clarity, maintainability, and adherence to Go's principles of simplicity and readability. - They help developers understand the intended use of functions and methods while also ensuring proper encapsulation and visibility control.
 
-
 [Previous: 01-not_oop.md](01-not_oop.md) | [Next: 03-slices_of_structs.md](03-slices_of_structs.md)

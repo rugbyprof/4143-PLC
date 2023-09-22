@@ -63,5 +63,4 @@ In this D&D-themed example:
 
 This example demonstrates the use of maps with D&D character data, including searching, deleting, and printing the map contents.
 
-
 [Previous: 03-slices_of_structs.md](03-slices_of_structs.md) | [Next: 05-struct_vs_interface.md](05-struct_vs_interface.md)

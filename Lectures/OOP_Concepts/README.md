@@ -36,4 +36,3 @@
 **[Interfaces](interfaces.md)**
 **[Interfaces and Inheritance](interfaces_and_inheritance.md)**
 **[Composition Over Inheritance](comp_over_inherit.md)** -->
-[Previous: 11-comp_over_inherit.md](11-comp_over_inherit.md) | 
