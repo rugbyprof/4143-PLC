@@ -1,3 +1,5 @@
+# On Hold
+
 Here's a walkthrough on how to structure your Go project incrementally while focusing on object-oriented principles:
 
 ### Step 1: Project Setup

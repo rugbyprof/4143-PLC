@@ -1,4 +1,4 @@
-## Methods V Functions
+## Methods Vs Functions
 
 In Go, functions and methods are both used to define blocks of code that perform a specific task, but they have distinct characteristics and use cases. Here's a detailed comparison of functions and methods in Go:
 
