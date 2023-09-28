@@ -1,8 +1,8 @@
 
-Q:
+### Q:
 I've been teaching computer science for a while, and now I'm attempting to learn `GoLang` in order to stay current. I would like to ask a few questions dealing with the implementation of some typical computer science data structures with `GoLang` let's start with a `Binary Heap`.  Please keep in mind that I would like to abide by expected GoLang package or module structure. Code organization is important when dealing with individual languages, especially if you want to expand on your current project.
 
-A:
+### A:
 Absolutely, Terry! It's great to hear that you're diving into GoLang to stay current. Let's explore how you can implement a Binary Heap data structure in Go while adhering to proper package and module structure. I'll provide you with an example implementation along with explanations for each part. Keep in mind that Go encourages modular and organized code, making it perfect for your purpose.
 
 First, let's create a new directory for our project:
@@ -92,10 +92,10 @@ Feel free to implement the actual logic for push, pop, and peek according to the
 
 ------
 
-Q:
+### Q:
 So in `go` each package is at the same level ?  Where is the `go.mod` file. Do I need to consider making the heap package a module? What are the considerations for each?
 
-A:
+### A:
 Great questions, Terry! Let's clarify the concepts of Go packages, modules, and the importance of the `go.mod` file.
 
 In Go, packages are the building blocks of code organization, and they are typically organized within a directory hierarchy. Each directory containing Go source files is treated as a package. However, the directory structure doesn't necessarily dictate the package hierarchy. Packages can have different import paths even if they are located in the same directory.
@@ -151,10 +151,10 @@ Ultimately, the decision depends on your goals. If you anticipate reusing the `b
 
 Remember, Terry, Go's package and module system is designed to provide flexibility and maintainability. Consider your long-term goals and the potential reuse of your packages when making these decisions.
 
-Q:
+### Q:
 So any module I want to make available to myself, or other programmers can be located at  `github.com/yourusername/binaryheap`, aka my own repository, and subsequently imported by a package? Do I need to maintain version numbers? Does the `go.mod` file require version numbers?
 
-A:
+### A:
 Exactly, Terry! If you want to make a module available to yourself or other programmers, you can host it in a repository on GitHub (or any other code hosting platform). The module's import path will typically reflect the repository's URL, like `github.com/yourusername/binaryheap`.
 
 Here's how it works:
@@ -193,10 +193,12 @@ By specifying version numbers in your `go.mod` file, you ensure that your module
 
 Remember, Terry, maintaining version numbers and following best practices for versioning helps ensure that your module remains reliable and compatible for both yourself and other programmers who use it.
 
-Q:
+-----
+
+### Q:
 Ok. I have two followup questions. First, if I want to version my modules, what specifically do  I have to do within the module to make this happen? And second, how do I test my modules code? In python the `if __name__ == '__main__' ` block allows modules to be tested and ran with ease. But I'm not sure how `golang` expects its modules or packages to be  organized. In a previous example, you created a `main.go` file/folder to call another package. How can I create a module that has all the code necessary where it can be downloaded by a 3rd party to be used, and also run by the developer locally?
 
-A:
+### A:
 Certainly, Terry! Let's tackle your follow-up questions step by step:
 
 **Question 1: How to Version Your Go Module:**
@@ -277,11 +279,12 @@ By structuring your module this way, you can ensure that it's easy to test local
 
 Remember, Terry, Go's conventions for testing and package organization are designed to promote clean and maintainable code. Following these conventions will make it easier for you and others to work with your modules.
 
+-----
 
-Q:
+### Q:
 So a `main.go` file in a a `go` module, when downloaded by a 3rd party will not interfere with a local project?
 
-A:
+### A:
 That's correct, Terry. A `main.go` file within a Go module will not interfere with a local project when the module is downloaded by a 3rd party. This is because the `main.go` file is typically used for local testing and demonstration purposes and doesn't affect the behavior of the module when used as a dependency in other projects.
 
 When a 3rd party downloads your module to use in their project, they will typically import the module's package and use its functions, types, and methods according to their needs. The `main.go` file, if present, won't be automatically executed or included in their project.
