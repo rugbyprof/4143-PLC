@@ -1,179 +1,87 @@
 ## Program 3 - Image Ascii Art
 #### Due: 10-03-2023 (Tuesday @ 9:30 a.m.) 
 
-# I CHANGED MY MIND!!!!!
-
-
-## Background
-
-### Project Structure
-
-- We are are going to keep using the same project structure as the last program. 
-- But we are going to add a little functionality and give you guys a little challenge!
-- Remember `projectFolder` is your `module`, and modules use `packages` to add functionality.
-
-```
-projectFolder/
-├── main.go
-├── go.mod
-├── somePackage/
-│   ├── package1.go
-│   └── package2.go
-```
-
 ## Overview
 
-I want to extend and add functionality to P02 by doing more than simply drawing on an image. I want you to create a collection of packages that do the following: 
+This project is going to allow you to utilize the packaging strengths of Go, and make your own libs that can be used anywhere just by running the `go get ...` command. I want you to create four packages in one module or four different modules. I'm ok with both options. However, one or three will be placed in your github account (not in your course repo). 
 
-- Download an image from the web
-- Get the colors from an image
-- Grayscale an image
-- Print color text to a file or an image
+#### Three modules
+```
+github.com/yourUserName/img_colors
+├── Img_colors
+    ├── main.go
+    └── go.mod
 
+github.com/yourUserName/img_text
+├── Img_text
+    ├── main.go
+    └── go.mod
 
-### Http Requests Tutorial
+github.com/yourUserName/img_gray_scale
+├── Img_gray_scale
+    ├── main.go
+    └── go.mod
 
-This is just a couple of sources for getting items from the web (http requests)
-
-- https://www.digitalocean.com/community/tutorials/how-to-make-http-requests-in-go
-- https://zetcode.com/golang/getpostrequest/
-
-
-# Ascii Art Project
-
-#### Step 1: Project Setup
-
-1. Create a new directory for your project, e.g., "image-to-asciiart."
-
-2. Inside your project directory, create three subdirectories: "cmd," "imageutil," and "asciiart." Your project structure should look like this:
-
-   ```
-   image-to-asciiart/
-   ├── cmd/
-   ├── imageutil/
-   └── asciiart/
-   ```
-
-#### Step 2: Initialize the Project and Modules
-
-1. Open your terminal and navigate to your project directory, e.g., `cd path/to/image-to-asciiart`.
-
-2. Run the following command to initialize your project as a Go module:
-
-   ```bash
-   go mod init image-to-asciiart
-   ```
-
-   This creates a `go.mod` file that will help manage your project's dependencies.
-
-#### Step 3: Create Packages
-
-In your "imageutil" and "asciiart" directories, create Go files (`imageutil.go` and `asciiart.go`) with the functions you need. For example, in "imageutil/imageutil.go":
-
-```go
-package imageutil
-
-import (
-    "fmt"
-)
-
-func DownloadImage(url, filename string) error {
-    // Your code to download an image goes here
-    fmt.Printf("Downloading image from %s to %s...\n", url, filename)
-    return nil
-}
+github.com/yourUserName/img_get
+├── Img_get
+    ├── main.go
+    └── go.mod
 ```
 
-And in "asciiart/asciiart.go":
 
-```go
-package asciiart
-
-import (
-    "fmt"
-)
-
-func ConvertToASCII(imagePath string, cols, rows int) (string, error) {
-    // Your code to convert an image to ASCII art goes here
-    fmt.Printf("Converting image at %s to ASCII art (%d columns, %d rows)...\n", imagePath, cols, rows)
-    return "ASCII art result", nil
-}
+#### One Module 
+```
+github.com/yourUserName/img_mod
+├── Colors
+│   ├── go.mod
+│   └── main.go
+├── Grayscale
+│   ├── go.mod
+│   └── main.go
+└── Text
+│   ├── go.mod
+│   └── main.go
+└── GetPic
+    ├── go.mod
+    └── main.go
 ```
 
-#### Step 4: Create the Main Program
+Each repository can then be imported to your projects as needed. I have provided the logic for each `package` in the form of a markdown file:
 
-In your "cmd" directory, create a `main.go` file where you will use the functions from your packages:
+- [colors.md](./colors.md)
+- [color_text.md](./color_text.md)
+- [grahscale.md](./grayscale.md)
+- [getPic](./getPic/)
 
-```go
-package main
+These files have small explanations, but also the necessary code to implement each module. 
 
-import (
-    "fmt"
-    "image-to-asciiart/imageutil"
-    "image-to-asciiart/asciiart"
-)
+### Creating Folder and Repo(s)
 
-func main() {
-    // Your program logic here
+The chat GPT discussion doc [HERE](../../Lectures/module_conversation.md) has a semi walkthrough on how to go about creating a module. I will write a seperate one here as another source of info.
 
-    // Example usage of the imageutil package
-    imageURL := "URL_OF_THE_IMAGE"
-    err := imageutil.DownloadImage(imageURL, "image.jpg")
-    if err != nil {
-        fmt.Println("Error downloading image:", err)
-        return
-    }
+1. Create a repository online in your github account. Name it something like I did above. 
+2. Use vsCode to clone that repository and bring it down to your own computer. 
+3. To clone:
+   - Hit `ctrl`-`shift`-`p` to get your command bar at the top of vscode.
+   - Type `git`, all the commands with `git` in them will show up.
+   - Choose `clone from github`, then choose the repo you created. 
+4. Depending on you using one or three mods, you can follow the directory structure from above.
 
-    // Example usage of the asciiart package
-    asciiArt, err := asciiart.ConvertToASCII("image.jpg", 100, 50)
-    if err != nil {
-        fmt.Println("Error converting to ASCII art:", err)
-        return
-    }
+ 
+### Adding Code 
 
-    // Print the ASCII art to the console
-    fmt.Println(asciiArt)
-}
-```
-
-#### Step 5: Run Your Program
-
-Now you can run your program by navigating to the "cmd" directory and executing `go run main.go`:
+- Depending on the directory structure you chose, you now need to add the code to your module (whether it contains 1 or 4 packages).
+- For the `colors` module, here is what I've done/.
+- After I added the subfolder `colors` (within the outer colors folder) I ran the following to initialize my color module.
 
 ```bash
-cd path/to/image-to-asciiart/cmd
-go run main.go
+$ go mod init colors     
+go: creating new go.mod: module colors
+go: to add module requirements and sums:
+        go mod tidy
+$ go mod tidy                                                 
 ```
 
-This will execute your program, which uses the functions from the "imageutil" and "asciiart" packages.
+I pasted the code from [colors.md](./colors.md) into a `main.go` file within the colors sub directory. However, the code I gave you is not very helpful as a package or module to be included to another project if there is only a main function. So you will need to place the logic into a function!
 
-#### GitHub Option (Optional):
-
->You can read [this Chat GPT exchange](../../Lectures/module_conversation.md) if you want to know more about modules on github.
-
-If you want to host your packages on GitHub, you can do the following:
-
-1. Create separate GitHub repositories for each package (e.g., "imageutil" and "asciiart").
-
-2. Push the package code to their respective GitHub repositories.
-
-3. To use these packages in your "image-to-asciiart" project, you can modify your import paths in the `main.go` file to point to the GitHub repositories:
-
-   ```go
-   import (
-       "fmt"
-       "github.com/yourusername/imageutil" // Replace with your GitHub username
-       "github.com/yourusername/asciiart"  // Replace with your GitHub username
-   )
-   ```
-
-   Then run `go get` to fetch the packages:
-
-   ```bash
-   go get github.com/yourusername/imageutil
-   go get github.com/yourusername/asciiart
-   ```
-
-   Finally, you can use them as described in the previous steps.
-
-I hope this step-by-step guide clarifies the process of setting up a Go project with local packages and, if needed, GitHub-hosted packages.
+## More Coming ...
