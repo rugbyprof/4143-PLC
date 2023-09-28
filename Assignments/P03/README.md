@@ -146,6 +146,8 @@ This will execute your program, which uses the functions from the "imageutil" an
 
 #### GitHub Option (Optional):
 
+>You can read [this Chat GPT exchange](../../Lectures/module_conversation.md) if you want to know more about modules on github.
+
 If you want to host your packages on GitHub, you can do the following:
 
 1. Create separate GitHub repositories for each package (e.g., "imageutil" and "asciiart").
