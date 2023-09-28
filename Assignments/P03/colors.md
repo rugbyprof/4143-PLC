@@ -1,6 +1,7 @@
 ## Image Pixel Colors
 
-Yes, Go has a standard library package called `image` that you can use for basic image manipulation tasks, including reading pixel data. If you need more advanced functionality, there's also a third-party package called `github.com/disintegration/imaging`, which extends the standard `image` package.
+- Go has a standard library package called `image` that you can use for basic image manipulation tasks, including reading pixel data. 
+- If you need more advanced functionality, there's also a third-party package called `github.com/disintegration/imaging`, which extends the standard `image` package.
 
 Here's a simple example using the standard `image` package to read the color of each pixel in an image:
 
@@ -41,8 +42,7 @@ func main() {
 }
 ```
 
-In this example, I'm using a PNG image file named "image.png". Make sure to replace the file name with the one you intend to use.
-
-You'll notice the line `_ "image/png"`. The underscore is used to import a package solely for its initialization side-effects. This particular import enables your code to decode PNG files. If you want to support JPEG files, you'd add `_ "image/jpeg"` in a similar manner.
-
-Feel free to adapt this code to your needs. The `image` package provides a lot of useful methods and interfaces for image manipulation.
+- Replace the image file named `image.png` with your own file path.
+- You'll notice the line `_ "image/png"`. The underscore is used to import a package solely for its initialization side-effects. 
+- This particular import enables your code to decode PNG files. 
+- If you want to support JPEG files, you'd add `_ "image/jpeg"` in a similar manner.

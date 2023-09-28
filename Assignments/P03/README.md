@@ -1,5 +1,8 @@
-## Program 3 - Image Getter
+## Program 3 - Image Ascii Art
 #### Due: 10-03-2023 (Tuesday @ 9:30 a.m.) 
+
+# I CHANGED MY MIND!!!!!
+
 
 ## Background
 
@@ -20,18 +23,18 @@ projectFolder/
 
 ## Overview
 
-I want to use the code from P02 and add functionality that goLang is supposed to make `easy`. However I think all of us are realizing how important dev environments are and learning the intricacies of a new language. The previous program just opened an image and drew a rectangle on said image. Lets add some convenience and robustness to our code:
+I want to extend and add functionality to P02 by doing more than simply drawing on an image. I want you to create a collection of packages that do the following: 
 
-- Auto download an image from the web
-- Run a small web server that provides a form to enter our url. 
-
-### Future
-
-- Async requests
-- Parallel downloads
+- Download an image from the web
+- Get the colors from an image
+- Grayscale an image
+- Print color text to a file or an image
 
 
 ### Http Requests Tutorial
+
+This is just a couple of sources for getting items from the web (http requests)
+
 - https://www.digitalocean.com/community/tutorials/how-to-make-http-requests-in-go
 - https://zetcode.com/golang/getpostrequest/
 
