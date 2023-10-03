@@ -1,5 +1,5 @@
 ## Program 3 - Image Ascii Art
-#### Due: 10-03-2023 (Tuesday @ 9:30 a.m.) 
+#### Due: 10-05-2023 (Thursday @ 9:30 a.m.) 
 
 ## Overview
 
