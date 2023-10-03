@@ -10,6 +10,6 @@
 | ~<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Assignments/P01">P01</a>~ | ~<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Assignments/P01"> Program 1 </a>~ | ~<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Assignments/P01"> Run a Go Program</a>~ | ~<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Assignments/P01"> 09-12-2023 (Tuesday @ 9:30 a.m.)</a>~ | ~<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Assignments/P01">2023-09-12 00:00:00</a>~ | ---- |
 | ~<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Assignments/P02">P02</a>~ | ~<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Assignments/P02"> Program 2 </a>~ | ~<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Assignments/P02"> Baby Steps</a>~ | ~<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Assignments/P02"> 09-21-2023 (Thursday @ 9:30 a.m.)</a>~ | ~<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Assignments/P02">2023-09-21 00:00:00</a>~ | ---- |
 
-<sup>Last Updated: 2023-10-02 (Mon @ 23:33)</sup> 
+<sup>Last Updated: 2023-10-02 (Mon @ 23:34)</sup> 
 
 <sup>***Days Left is only accurate if the `Last Updated` date is the same as todays date. Otherwise, use the due date!***</sup> 
