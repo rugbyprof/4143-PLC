@@ -110,7 +110,7 @@
 
    Go modules provide a way to manage package dependencies and versions. You can create a `go.mod` file to specify your module's dependencies, including their versions. Here's a simplified example:
 
-   ```
+   ```go
    module mymodule
 
    require (
@@ -123,7 +123,7 @@
 ### More ways of organizing your code with a packages code example. 
 Let's assume you have the following directory structure shown below, 
 
-```
+```txt
 DandD/
 ├── main.go
 ├── character/

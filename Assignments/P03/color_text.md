@@ -29,7 +29,6 @@ Here's a simple example using `gg`:
 
 ```go
 package main
-package main
 
 import (
 	"io/ioutil"

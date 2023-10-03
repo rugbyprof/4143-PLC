@@ -119,5 +119,5 @@ func _main() {
 - `Output` we then output using the methods the Attacker interface requires. 
 - `Explicit` we can begin to see why Go is a very explicit language in the way that we must write our methods to perform any intended action on the struct. You must explicitly code that functionality. GetName() and Attack() are good at visualizing this.  
 - In the context of D&D, `structs` represent character types with attributes, while `interfaces` represent shared actions like attacking.
-=
+
 [Previous: 04-maps.md](04-maps.md) | [Next: 06-methods_vs_functions.md](06-methods_vs_functions.md)

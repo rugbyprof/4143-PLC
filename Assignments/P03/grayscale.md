@@ -9,21 +9,23 @@
 
 I guess averaging 3 numbers is a "formula", but its the easiest way to obtain the "gray" value:
 
-\[
-\text{Gray} = (R + G + B) / 3
-\]
+```cpp
+Gray = (R + G + B) / 3
+```
 
 And then you set that pixel to its new gray color like so:
 
-\[
-\text{RGB}(\text{Gray},\text{Gray},\text{Gray})
-\]
+
+```cpp
+RGB(Gray,Gray,Gray)
+```
 
 However a better way to choose the gray value for each channel can be seen below: 
 
-\[
-\text{Gray} = 0.3 \times R + 0.59 \times G + 0.11 \times B
-\]
+
+```cpp
+Gray = (0.3 * R) + (0.59 * G) + (0.11 * B)
+```
 
 Where we take 30% of the red channel value + 59% of the green channel and 11% of the blue channel to calculate the GrayScale value.
 
