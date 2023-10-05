@@ -7,7 +7,7 @@ Let's explore the idea of `first-class functions` in `Go` within the context of 
 - higher-order functions
 - returning functions from other functions
 - closures
-- and sone other practical use cases
+- and some other practical use cases
 
 ### What are First-Class Functions?
 
@@ -306,7 +306,7 @@ func SpellsCast(num int) func() int {
 }
 
 // higher order function, returns a function
-// returns a function with the type SpellCaster
+// returns a function with the type Spell
 func CreateSpell(spellName string) Spell {
 	return func() string {
 		return "Casting " + spellName + " spell!"
