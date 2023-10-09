@@ -6,6 +6,6 @@
 | ***<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Lectures/course_notes">course_notes</a>*** | ***<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Lectures/course_notes"> Placeholder Readme </a>*** | ***<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Lectures/course_notes"> No Description</a>*** | ***<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Lectures/course_notes">N/A</a>*** | ***<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Lectures/course_notes">None</a>*** |  |
 | ***<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Lectures/weekly_content">weekly_content</a>*** | ***<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Lectures/weekly_content">None</a>*** | ***<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Lectures/weekly_content">None</a>*** | ***<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Lectures/weekly_content">|  #  |Name                                                           |Description                                                  |</a>*** | ***<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Lectures/weekly_content">None</a>*** |  |
 
-<sup>Last Updated: 2023-10-03 (Tue @ 08:35)</sup> 
+<sup>Last Updated: 2023-10-08 (Sun @ 21:03)</sup> 
 
 <sup>***Days Left is only accurate if the `Last Updated` date is the same as todays date. Otherwise, use the due date!***</sup> 

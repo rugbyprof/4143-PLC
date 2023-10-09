@@ -99,16 +99,27 @@ I pasted the code from [colors.md](./colors.md) into a `main.go` file within the
 
 
 >1. Getting Picture 
+>
 >    Downloading `https://images2.imgbox.com/03/28/HryWco2s_o.jpg` ... done
+> 
 >    Saving `colors.jpg` to local file ... done
+> 
 >2. Processing Pixel Colors
+>
 >    Saving pixel output to `colors_pixel_counts.csv` (or json or txt) ... done
+> 
 >3. Grayscaling Image
+>
 >    Processing Grayscale ... done
+> 
 >    Saving grayscaled image to `colors_gray_scale.jpg`  ... done
+> 
 >4. Adding Text
+>
 >    Adding the string "COLORS" to image ... done
+> 
 >    Saving labeled image to `colors_labeled.jpg` ... done
+> 
 
 - When finished you should have 4 local files (3 images). 
 - Never overwrite the original!
