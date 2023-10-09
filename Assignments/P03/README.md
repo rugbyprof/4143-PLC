@@ -95,7 +95,9 @@ I pasted the code from [colors.md](./colors.md) into a `main.go` file within the
 - Create one module with 4 packages or four modules that live on your github site.
 - Create another module that shows the usage of each of your modules or packages. Call this module `ColorTest`.
 - Within this `ColorTest` module, your main function should run through and use each of the color modules in some logical fashion that shows they work. 
-- For Example:
+
+
+### For Example:
 
 
 >1. Getting Picture 
