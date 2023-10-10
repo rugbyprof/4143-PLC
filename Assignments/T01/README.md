@@ -1,5 +1,5 @@
 ## Test 1 - Go's OOP Concepts
-#### Due: 10-10-2023 (Tuesday @ 9:30 a.m.) 
+#### Due: 10-12-2023 (Thursday @ 9:30 a.m.) 
 
 First test content is below. We will discuss in class and I will create some example questions as well.
 
