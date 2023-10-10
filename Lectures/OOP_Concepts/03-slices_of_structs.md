@@ -78,4 +78,4 @@ Using slices of structs is common in `Go` for organizing and working with collec
 For those inspired by this document here is the `Go Official Docs` link [Slices - Go docs](https://go.dev/blog/slices-intro)
 
 
-[Previous: 02-new_keyword.md](02-new_keyword.md) | [Next: 04-maps.md](04-maps.md)
+[Previous: 02-new_keyword.md](./02-new_keyword.md) | [Next: 04-maps.md](./04-maps.md)

@@ -155,4 +155,4 @@ In this example:
 
 This demonstrates how composition can be used to model relationships between objects in Go, allowing you to create more flexible and modular code, which is a core principle of the language.
 
-[Previous: 10-packages_in_depth.md](10-packages_in_depth.md) | [Next: README.md](README.md)
+[Previous: 10-packages_in_depth.md](./10-packages_in_depth.md) | [Next: 12-encapsulation.md](./12-encapsulation.md)

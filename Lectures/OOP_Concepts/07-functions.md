@@ -362,4 +362,4 @@ func main() {
 
 Link to Golang docs: [Functions - Go Docs](https://golangdocs.com/functions-in-golang)
 
-[Previous: 06-methods_vs_functions.md](06-methods_vs_functions.md) | [Next: 08-interfaces.md](08-interfaces.md)
+[Previous: 06-methods_vs_functions.md](./06-methods_vs_functions.md) | [Next: 08-interfaces.md](./08-interfaces.md)

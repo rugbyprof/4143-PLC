@@ -237,4 +237,4 @@ func main() {
 - By defining an interface (`Attacker`) in the `character` package and implementing it in the `wizard` and `warrior` packages, you can enforce a common behavior (in the `Attack` method) across different character types. 
 - This approach allows you to work with characters uniformly in your main code while still leveraging the unique implementations of the `Attack` method for each character type.
 
-[Previous: 09-composition_and_packages.md](09-composition_and_packages.md) | [Next: 11-comp_over_inherit.md](11-comp_over_inherit.md)
+[Previous: 09-composition_and_packages.md](./09-composition_and_packages.md) | [Next: 11-comp_over_inherit.md](./11-comp_over_inherit.md)

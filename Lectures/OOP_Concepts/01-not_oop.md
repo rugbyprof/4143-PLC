@@ -150,4 +150,4 @@ There are really 11 main points to how Go differs from what we are used to in Py
 
 Go offers a unique approach to OOP that emphasizes simplicity, composition, strong typing, and interfaces for polymorphism. It avoids some of the complexities associated with class-based inheritance and introduces innovative features like goroutines and channels for concurrency. While Go differs from Python and C++ in several ways, it provides a practical and efficient toolset for building scalable and maintainable software.
 
- | [Next: 02-new_keyword.md](02-new_keyword.md)
+ | [Next: 02-new_keyword.md](./02-new_keyword.md)

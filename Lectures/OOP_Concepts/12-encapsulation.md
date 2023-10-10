@@ -80,6 +80,7 @@ NOT EXPORTED:     func attack(w Wizard) int
 
 This file is intended to clarify some more object oriented concepts that Go implements in it's own fashion. 
 
+[Previous: 11-comp_over_inherit.md](./11-comp_over_inherit.md) | [Next: README.md](./README.md)
 
 
 

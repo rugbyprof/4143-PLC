@@ -98,4 +98,4 @@ There are several useful method naming conventions in Go, in addition to the "ne
 
 These are some of the common method naming conventions in Go. Choosing an appropriate convention depends on the specific use case and the intended semantics of the method. Consistency in naming conventions within your codebase is essential for readability and maintainability.
 
-[Previous: 01-not_oop.md](01-not_oop.md) | [Next: 03-slices_of_structs.md](03-slices_of_structs.md)
+[Previous: 01-not_oop.md](./01-not_oop.md) | [Next: 03-slices_of_structs.md](./03-slices_of_structs.md)
