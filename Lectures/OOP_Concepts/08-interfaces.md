@@ -218,3 +218,4 @@ Go interfaces allow you to:
 Understanding these concepts can help you design flexible and modular code.
 
 [Previous: 07-functions.md](./07-functions.md) | [Next: 09-interfaces_and_inheritance.md](./09-interfaces_and_inheritance.md)
+

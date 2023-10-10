@@ -1,6 +1,22 @@
 # OOP Concepts - Intro to OOP in Go
 #### Contents
 
+|   #   | Name                                                             | Description                                                |
+| :---: | :--------------------------------------------------------------- | :--------------------------------------------------------- |
+|   1   | [01-not_oop.md](01-not_oop.md)                                   | [Not OOP](01-not_oop.md)                                   |
+|   2   | [02-new_keyword.md](02-new_keyword.md)                           | [Keywords in Go](02-new_keyword.md)                        |
+|   3   | [03-slices_of_structs.md](03-slices_of_structs.md)               | [Slice:](03-slices_of_structs.md)                          |
+|   4   | [04-maps.md](04-maps.md)                                         | [Go Maps](04-maps.md)                                      |
+|   5   | [05-struct_vs_interface.md](05-struct_vs_interface.md)           | [Struct vs Interface](05-struct_vs_interface.md)           |
+|   6   | [06-methods_vs_functions.md](06-methods_vs_functions.md)         | [Methods Vs Functions](06-methods_vs_functions.md)         |
+|   7   | [07-functions.md](07-functions.md)                               | [Functions](07-functions.md)                               |
+|   8   | [08-interfaces.md](08-interfaces.md)                             | [Interfaces](08-interfaces.md)                             |
+|   9   | [09-composition_and_packages.md](09-composition_and_packages.md) | [Composition and Packages](09-composition_and_packages.md) |
+|  10   | [10-packages_in_depth.md](10-packages_in_depth.md)               | [Explanation of packages](10-packages_in_depth.md)         |
+|  11   | [11-comp_over_inherit.md](11-comp_over_inherit.md)               | [Composition Over Inheritance](11-comp_over_inherit.md)    |
+|  12   | [12-encapsulation.md](12-encapsulation.md)                       | [Encapsulation](12-encapsulation.md)                       |
+
+
 1. **[Not OOP](01-not_oop.md)**: Start with a brief introduction to Go's approach to object-oriented programming (OOP) or rather, its preference for composition over inheritance. Explain why Go doesn't have traditional classes and inheritance.
 
 2. **[Keywords](02-new_keyword.md)**: Explain the use of the `new` keyword in Go for dynamic memory allocation, as well as why keywords exist and what others are used consistently. 
@@ -24,3 +40,4 @@
 11. **[Composition Over Inheritance](11-comp_over_inherit.md)**: Reinforce the idea of composition over inheritance, showing how to embed structs within other structs and use composition to build complex types.
    
 12. **[Encapsulation](12-encapsulation.md)** Further clarify implementation hiding within Go and how the language implements public/private for its data structures and packages.  
+

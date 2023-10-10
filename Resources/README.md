@@ -8,6 +8,6 @@
 | ***<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Resources/03-Readmees">03-Readmees</a>*** | ***<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Resources/03-Readmees"> README </a>*** | ***<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Resources/03-Readmees"> How You Should Format Them</a>*** | ***<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Resources/03-Readmees"> None</a>*** | ***<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Resources/03-Readmees">None</a>*** |  |
 | ***<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Resources/99_PossibleTopicsList">99_PossibleTopicsList</a>*** | ***<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Resources/99_PossibleTopicsList"> Course: Programming Language Concepts </a>*** | ***<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Resources/99_PossibleTopicsList"> Using Go</a>*** | ***<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Resources/99_PossibleTopicsList"> None</a>*** | ***<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Resources/99_PossibleTopicsList">None</a>*** |  |
 
-<sup>Last Updated: 2023-10-10 (Tue @ 01:33)</sup> 
+<sup>Last Updated: 2023-10-10 (Tue @ 05:01)</sup> 
 
 <sup>***Days Left is only accurate if the `Last Updated` date is the same as todays date. Otherwise, use the due date!***</sup> 
