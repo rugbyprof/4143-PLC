@@ -238,3 +238,8 @@ func main() {
 - This approach allows you to work with characters uniformly in your main code while still leveraging the unique implementations of the `Attack` method for each character type.
 
 [Previous: 09-composition_and_packages.md](./09-composition_and_packages.md) | [Next: 11-comp_over_inherit.md](./11-comp_over_inherit.md)
+
+
+
+
+
