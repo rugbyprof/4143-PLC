@@ -1,0 +1,493 @@
+\documentclass[12pt]{exam}
+\usepackage[utf8]{inputenc}
+\usepackage{exam_style}
+
+
+\geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=10mm,
+ top=15mm,
+ }
+ 
+
+%%=================================================================%%
+%%=CLASS INFO======================================================%%
+\newcommand{\class}{4143 - PLC}
+\newcommand{\term}{Fall 2023}
+\newcommand{\examnum}{Exam One}
+\newcommand{\examdate}{\today}
+\newcommand{\timelimit}{1:20min}
+
+\pagestyle{head}
+\firstpageheader{}{}{}
+\runningheader{\class}{\examnum\ - Page \thepage\ of \numpages}{Initials:$\rule{2cm}{0mm}$}
+\runningheadrule
+
+\begin{document}
+
+\noindent
+\begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r @{\extracolsep{6pt}} l}
+  \textbf{\class} & \textbf{Name:} & \makebox[2in]{\hrulefill}\\
+  \textbf{\term} &&\\
+  \textbf{\examnum} &&\\
+  \textbf{\examdate} &&\\
+  % \textbf{Time Limit: \timelimit} & Teaching Assistant & \makebox[2in]{\hrulefill}
+\end{tabular*}\\
+\\
+\rule[2ex]{\textwidth}{2pt}
+
+
+\noindent
+
+% \rule[2ex]{\textwidth}{2pt}
+
+% \clearpage
+
+% \Large
+% \ccb{MULTIPLE CHOICE}\\
+% \normalsize
+
+\begin{questions}
+
+\printanswers
+
+\question[2]  Which of the following is the Go convention for exported names?
+\begin{choices}
+\choice  They start with an underscore.
+\choice  They start with a lowercase letter.
+\CorrectChoice  They start with an uppercase letter.
+\choice  They end with an exclamation mark.
+\choice  None of the above
+\end{choices}
+ 
+\question[2]  If you see a Go function named `calculateTotal`, what can you infer about its visibility?
+\begin{choices}
+\choice  It's exported and can be accessed from other packages.
+\choice  It's exported but cannot be accessed from other packages.
+\choice  It's a built-in Go function.
+\choice  It's an anonymous function.
+\CorrectChoice  None of the above
+\end{choices}
+ 
+\question[2]  Which of the following is a recommended naming convention for package names in Go?
+\begin{choices}
+\choice  CamelCase
+\choice  snake\_case
+\CorrectChoice  all-lowercase
+\choice  ALL-UPPERCASE
+\choice  None of the above
+\end{choices}
+ 
+\question[2]  Given a struct attribute named `size`, what would be the conventional getter method name in Go?
+\begin{choices}
+\choice  `getSize()`
+\choice  `Size()`
+\choice  `GetSize()`
+\choice  `retrievesize()`
+\CorrectChoice  None of the above
+\end{choices}
+ 
+\question[2]  For an acronym like `XML`, how should it be represented in a Go identifier when combined with another word, e.g., "parser"?
+\begin{choices}
+\choice  `xMLParser`
+\choice  `XmlParser`
+\CorrectChoice  `XMLParser`
+\choice  `xmlparser`
+\choice  None of the above
+\end{choices}
+ 
+\question[2]  In Go, which of the following is the conventional way to allocate memory and create a new instance of a struct?
+\begin{choices}
+\choice  `new(MyStruct)`
+\choice  `MyStruct.new()`
+\CorrectChoice  `\&MyStruct{}`
+\choice  `create MyStruct`
+\choice  None of the above
+\end{choices}
+ 
+\question[2]  How does Go determine if a field or method of a struct is exported outside of its package?
+\begin{choices}
+\choice  By using the `export` keyword.
+\choice  By placing the field or method in a separate `public` section.
+\choice  By annotating the field or method with `// public`.
+\CorrectChoice  By starting the field or method name with an uppercase letter.
+\choice  None of the above
+\end{choices}
+ 
+\question[2]  Which of the following is NOT a naming convention in Go?
+\begin{choices}
+\choice  Starting a variable name with an underscore to indicate it's unused.
+\choice  Using camelCase for variable names.
+\CorrectChoice  Prefixing interface names with an `I` (e.g., `IReader`).
+\choice  Using all uppercase letters for constant values.
+\choice  None of the above
+\end{choices}
+ 
+\question[2]  Which of the following best describes a slice in Go?
+\begin{choices}
+\choice  An STL vector.
+\choice  A dynamic array that can grow or shrink.
+\choice  A linked list.
+\CorrectChoice  All of the above
+\choice  None of the above
+\end{choices}
+ 
+\question[2]  What is the output of the following code?
+\begin{mdframed}[backgroundcolor=bg]
+\begin{minted}[linenos=false]{go}
+   s := []int{1, 2, 3, 4, 5}
+   t := s[1:4]
+   t[0] = 10
+   fmt.Println(s[1])
+\end{minted}
+\end{mdframed}
+\begin{choices}
+\choice  1
+\choice  2
+\CorrectChoice  10
+\choice  An error is produced.
+\choice  None of the above
+\end{choices}
+ 
+\question[2]  How do you append an element to a slice in Go?
+\begin{choices}
+\choice  `s.add(10)`
+\choice  `s++`
+\choice  `s + 10`
+\CorrectChoice  `s = append(s, 10)`
+\choice  None of the above
+\end{choices}
+ 
+\question[2]  In Go, what's the primary purpose of a struct?
+\begin{choices}
+\choice  To define a new data type.
+\CorrectChoice  To group together variables of different data types.
+\choice  To implement interfaces.
+\choice  To define methods.
+\choice  None of the above
+\end{choices}
+ 
+\question[2]  Which of the following is a correct way to initialize a struct named `Person` with fields `Name` and `Age`?
+\begin{choices}
+\choice  `p := Person(Name: "Alice", Age: 30)`
+\choice  `p := Person{Name="Alice", Age=30}`
+\CorrectChoice  `p := Person{Name: "Alice", Age: 30}`
+\choice  `p := new Person("Alice", 30)`
+\choice  None of the above
+\end{choices}
+ 
+\question[2]  When you have a struct with an embedded struct, which statement is true?
+\begin{choices}
+\CorrectChoice  The embedded struct's fields can be accessed as if they were fields of the outer struct.
+\choice  You must always use the embedded struct's name to access its fields.
+\choice  The outer struct inherits all the methods of the embedded struct.
+\choice  All of the above
+\choice  None of the above
+\end{choices}
+ 
+\question[2]  Which of the following best describes a map in Go?
+\begin{choices}
+\choice  A dictionary like Python
+\choice  An associative array like in Php
+\CorrectChoice  An Stl Map like in C++
+\choice  A data structure that associates keys with values.
+\choice  All of the above
+\end{choices}
+ 
+\question[2]  How do you declare a new empty map with string keys and int values?
+\begin{choices}
+\choice  `m := new(mapint)`
+\CorrectChoice  `m := mapint{}`
+\choice  `var m mapint = {}`
+\choice  `var m = []string{int}`
+\choice  None of the above
+\end{choices}
+ 
+\question[2]  What is the result of accessing a key that doesn't exist in a map?
+\begin{choices}
+\choice  The program will crash with an error.
+\choice  It returns `nil`.
+\CorrectChoice  It returns the zero value for the map's value type.
+\choice  It throws an exception.
+\choice  None of the above
+\end{choices}
+ 
+\question[2]  How can you safely check if a key exists in a map?
+\begin{choices}
+\CorrectChoice  `value, exists := m`
+\choice  `value := m; exists := value != nil`
+\choice  `exists := m`
+\choice  `value := m.get(key); exists := value != nil`
+\choice  None of the above
+\end{choices}
+ 
+\question[2]  Which statement accurately describes how a type implements an interface in Go?
+\begin{choices}
+\choice  The type explicitly declares the interface it implements.
+\CorrectChoice  The type implicitly implements the interface by defining the required methods.
+\choice  The type inherits the interface.
+\choice  The type is annotated with the interface name.
+\choice  None of the above
+\end{choices}
+ 
+\question[2]  What is an empty interface in Go?
+\begin{choices}
+\choice  An interface with a single method.
+\choice  An interface that has been initialized to nil.
+\CorrectChoice  An interface that doesn't specify any methods.
+\choice  An obsolete or deprecated interface.
+\choice  None of the above
+\end{choices}
+ 
+\question[2]  What does the following code achieve? `value, ok := myInterface.(MyType)`
+\begin{choices}
+\CorrectChoice  It asserts that `myInterface` is of type `MyType` and retrieves its value.
+\choice  It converts `myInterface` to `MyType` and returns an error if unsuccessful.
+\choice  It checks if `MyType` implements `myInterface`.
+\choice  It creates a new interface named `MyType` from `myInterface`.
+\choice  None of the above
+\end{choices}
+ 
+\question[2]  Which of the following can hold any value in Go?
+\begin{choices}
+\CorrectChoice  `interface{}`
+\choice  `interface{Any}`
+\choice  `type Any interface{}`
+\choice  `Any`
+\choice  None of the above
+\end{choices}
+ 
+\question[2]  Which of the following correctly declares a function in Go that takes two integers as arguments and returns an integer?
+\begin{choices}
+\choice  `func Sum(int a, int B): int`
+\choice  `int Sum(int a, int B)`
+\CorrectChoice  `func Sum(a int, b int) int`
+\choice  `Sum(a, b int) -> int`
+\choice  None of the above
+\end{choices}
+ 
+\question[2]  In Go, how can you return multiple values from a function?
+\begin{choices}
+\choice  By returning an array or slice.
+\choice  By returning a tuple.
+\choice  Using multiple return statements.
+\CorrectChoice  By specifying multiple return types in the function declaration.
+\choice  None of the above
+\end{choices}
+ 
+\question[2]  What does the `defer` keyword do in a function?
+\begin{choices}
+\choice  Delays the execution of the function until all other functions are executed.
+\choice  Makes sure the function executes even if the program crashes.
+\CorrectChoice  Delays the execution of a statement until the surrounding function returns.
+\choice  Delays the execution of the next function in the call stack.
+\choice  None of the above
+\end{choices}
+ 
+\question[2]  What is a closure in Go?
+\begin{choices}
+\choice  A function without a name.
+\CorrectChoice  A function declared inside another function that captures and can access its outer function's local variables.
+\choice  A way to close or terminate a function prematurely.
+\choice  A function that returns an error.
+\choice  None of the above
+\end{choices}
+ 
+\question[2]  In Go, how is composition typically achieved?
+\begin{choices}
+\choice  Using class-based inheritance.
+\CorrectChoice  Embedding one struct type inside another.
+\choice  Implementing multiple interfaces in a single class.
+\choice  Using the `extends` keyword.
+\choice  None of the above
+\end{choices}
+ 
+\question[2]  Given a `Vehicle` struct embedded in a `Car` struct, how can you access a method `Drive` of the `Vehicle` struct from a `Car` instance?
+\begin{choices}
+\choice  `Car.Vehicle.Drive()`
+\choice  `Car->Vehicle.Drive()`
+\CorrectChoice  `Car.Drive()`
+\choice  `Car::Drive()`
+\choice  None of the above
+\end{choices}
+ 
+\question[2]  Why might you prefer composition over inheritance in Go?
+\begin{choices}
+\choice  Flexibility
+\choice  Reusability
+\choice  Low Coupling
+\choice  Most solutions fit this pattern anyway
+\CorrectChoice  All of the above
+\end{choices}
+ 
+\question[2]  An "anonymous" struct: is one way to have generic data members for different (but similar) structs and then add more specific items to tailor each of them?
+\begin{choices}
+\CorrectChoice  True
+\choice  False
+\end{choices}
+ 
+\question[2]  Which keyword is used at the beginning of a Go file to declare its package?
+\begin{choices}
+\choice  `import`
+\choice  `module`
+\CorrectChoice  `package`
+\choice  `use`
+\choice  None of the above
+\end{choices}
+ 
+\question[2]  What is the significance of the `main` package in Go?
+\begin{choices}
+\choice  It is used for testing.
+\CorrectChoice  It indicates the package should be compiled as an executable program.
+\choice  It is the root package for modules.
+\choice  It contains the core libraries of Go.
+\choice  None of the above
+\end{choices}
+ 
+\question[2]  Which file is crucial for defining a module in Go?
+\begin{choices}
+\choice  `module.go`
+\choice  `gomodule.txt`
+\choice  `go.pkg`
+\CorrectChoice  `go.mod`
+\choice  None of the above
+\end{choices}
+ 
+\question[2]  Which command initializes a new module in Go?
+\begin{choices}
+\choice  `go init module`
+\choice  `go new mod`
+\choice  `go mod start`
+\CorrectChoice  `go mod init`
+\choice  None of the above
+\end{choices}
+ 
+\question[2]  Which design principle suggests building object capabilities from smaller, reusable pieces instead of strict class hierarchies?
+\begin{choices}
+\choice  Encapsulation Over Polymorphism
+\choice  Segregation Over Integration
+\choice  Inheritance Over Composition
+\choice  Abstraction Over Composition
+\CorrectChoice  None of the above
+\end{choices}
+ 
+\question[2]  Why might a developer prefer inheritance over composition?
+\begin{choices}
+\choice  Code Reusability.
+\choice  Polymorphism.
+\CorrectChoice  Structural Hierarchies.
+\choice  The like Java.
+\choice  All of the above
+\end{choices}
+ 
+\question[2]  Which problem is associated with multiple inheritance and can be avoided by using composition?
+\begin{choices}
+\choice  Ellipsis Problem
+\choice  Square Problem
+\CorrectChoice  Diamond Problem
+\choice  Triangle Issue
+\choice  None of the above
+\end{choices}
+ 
+\question[2]  In Go, how do you define an identifier that can be accessed from outside its package?
+\begin{choices}
+\choice  Prefix it with an underscore (\_)
+\choice  It's determined by the package's configuration.
+\CorrectChoice  Start its name with an uppercase letter.
+\choice  End its name with an exclamation mark (!)
+\choice  None of the above
+\end{choices}
+ 
+\question[2]  Which of the following is true about encapsulation in Go?
+\begin{choices}
+\choice  Encapsulation is achieved using `defer` and `type` keywords.
+\choice  All methods are publicly accessible regardless of their naming by typing them correctly.
+\CorrectChoice  Data and methods can be encapsulated by making their identifiers unexported.
+\choice  Encapsulation is not a feature of Go.
+\choice  All of the above
+\end{choices}
+ 
+\question[2]  If you see a function named `processData` in a Go package, which of the following can you infer?
+\begin{choices}
+\choice  The function is exported and can be used anywhere.
+\CorrectChoice  The function is unexported and can only be used within its package.
+\choice  The function is unexported but can be accessed using the `friend` keyword.
+\choice  The function processes data.
+\choice  None of the above
+\end{choices}
+ 
+\question[2]  Based on the following snippet, we can without question infer that:
+\begin{mdframed}[backgroundcolor=bg]
+\begin{minted}[linenos=false]{go}
+       func (w Warrior) Attack() int {
+          return w.Strength * 3
+       }
+    
+       func (w Warrior) GetName() string {
+          return w.c.Name
+       }
+\end{minted}
+\end{mdframed}
+\begin{choices}
+\choice  There is an anonymous struct defined in Warrior.
+\choice  There is an empty interface defined.
+\CorrectChoice  There is an interface with `GetName` and `Attack` defined.
+\choice  There is nothing we can infer.
+\choice  None of the above
+\end{choices}
+ 
+\question[2]  Based on the following snippet, we can we infer?
+\begin{mdframed}[backgroundcolor=bg]
+\begin{minted}[linenos=false]{go}
+       func (p *Person) WithAge(age int) *Person {
+             pCopy := *p // Create a copy of the original person
+             pCopy.Age = age
+             return &pCopy
+       }
+\end{minted}
+\end{mdframed}
+\begin{choices}
+\choice  This is Go's version of creating linked nodes.https://www.overleaf.com/project/6514e277500b93c87ffb804c
+\CorrectChoice  This is Go's way of return a copy of an existing struct.
+\choice  There is an interface somewhere that has `WithAge` in it.
+\choice  There is nothing we can infer.
+\choice  None of the above
+\end{choices}
+ 
+\question[2]  What is the significance of the following function?
+\begin{mdframed}[backgroundcolor=bg]
+\begin{minted}[linenos=false]{go}
+       func MakeSomething() func() int {
+          i := 0
+          return func() int {
+             i++
+             return i
+          }
+       }
+\end{minted}
+\end{mdframed}
+\begin{choices}
+\choice  It's just a function.
+\choice  It's a function that returns a function.
+\choice  It's Go's version of encapsulation.
+\CorrectChoice  It's a function that implements a closure.
+\choice  It doesn't work.
+\end{choices}
+ 
+\question[2]  The receiver parameter on a function definition indicates that this function is actually a method for an interface since structs have no methods to define.
+\begin{choices}
+\choice  True
+\CorrectChoice  False
+\end{choices}
+ 
+\question[2]  Which of the following is False, when it comes to Go?
+\begin{choices}
+\choice Its a Compiled Language
+\choice It does Garbage Collection
+\choice An Imperative Programming Language as well as Procedural
+\CorrectChoice Does not support concurrency
+\end{choices}
+
+\end{questions}
+\end{document}
