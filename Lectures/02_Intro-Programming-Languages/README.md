@@ -1,5 +1,14 @@
 # Intro to Programming Languages
 
+|   #   | Name                                                                               | Description                                                                         |
+| :---: | :--------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------- |
+|   1   | [1.1-Importance-Programming-Languages.md](1.1-Importance-Programming-Languages.md) | [Why are programming languages important?](1.1-Importance-Programming-Languages.md) |
+|   2   | [1.2-Syntax-Vs-Semantics.md](1.2-Syntax-Vs-Semantics.md)                           | [Syntax and Semantics](1.2-Syntax-Vs-Semantics.md)                                  |
+|   3   | [1.3-Compile-Vs-Interpret.md](1.3-Compile-Vs-Interpret.md)                         | [Compiled Vs Interpreted](1.3-Compile-Vs-Interpret.md)                              |
+|   4   | [1.4-Static-Vs-Dynamic.md](1.4-Static-Vs-Dynamic.md)                               | [Static Vs Dynamic](1.4-Static-Vs-Dynamic.md)                                       |
+|   5   | [1.5-Paradigms.md](1.5-Paradigms.md)                                               | [Programming Paradigms](1.5-Paradigms.md)                                           |
+|   6   | [1.6-Goals-Programming-Languages.md](1.6-Goals-Programming-Languages.md)           | [Goals of Programming Languages](1.6-Goals-Programming-Languages.md)                |
+
 The guide introduces the core concepts of programming languages, focusing on the base level topics such as syntax and semantics. It explores compilation and interpretation methods, static vs. dynamic typing, and various programming paradigms. The guide also outlines the key goals and objectives that programming languages aim to achieve, providing a foundational understanding for further exploration in software development.
 
 **1.1: The Importance of Programming Languages**
