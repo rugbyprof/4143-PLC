@@ -7,14 +7,9 @@
 
 ---
 
-What does dynamic typing prioritize over static typing?
+## Clarifications
 
-What is the main characteristic that differentiates procedural programming from imperative programming?
-
-Is it possible for a single programming language to support multiple programming paradigms? Give examples of paradigm and language.
-
-
-## Imperative V Procedural
+### Imperative V Procedural
 
 The difference is not as staggering as one might have thought. Really it's based on choice. If you use functions to organize code, it's procedural, if you don't and you just go top-down, that's the imperative part. 
 
@@ -52,7 +47,7 @@ In many cases, the distinction isn’t clear-cut because these paradigms are mor
 
 ---
 
-## Reflection 
+### Reflection 
 
 Dylan brought up this topic when we were discussing `Attributes`,  `Annotations` and `Decorators`. I've included it since it really is another topic (like `hungarian notation`) which I understood, but never heard it phrases this way: `Reflection`....
 
@@ -125,7 +120,7 @@ These examples show how Python's reflection capabilities can be used to dynamica
 
 ---
 
-## Attributes & Annotations
+### Attributes & Annotations
 
 Hey all. Look at the `my_decorator` function to see how decorators might work.  Other than that cool example, attributes and annotations are summed up below:
 
@@ -189,7 +184,7 @@ So, in a nutshell, attributes are properties that objects carry around, while an
 
 
 
-## Goals
+### Goals
 
 **Expect a matching question for the `Goals` and the `Golang` goals.**
 
@@ -215,7 +210,7 @@ These are overall for all languages:
 
 
 
-## GoLang Goals
+### GoLang Goals
 
 This is for goloang.
 
@@ -240,5 +235,123 @@ This is for goloang.
 
 paradigm clarification
 
-
 compiled vs interpreted -->
+
+## Questions
+
+Know the bare bones basics about the following languages: (static or dynamic and major paradigm)
+1. Javascript
+2. Python
+3. Go
+4. Java
+5. Kotlin
+6. PHP
+7. C#
+8. Swift
+9. R
+10. Ruby
+11. C and C++
+12. Matlab
+13. TypeScript
+14. Scala
+15. SQL
+16. HTML
+17. CSS
+18. NoSQL
+19. Rust
+20. Perl
+
+   
+Out of the list above know which are dynamic, static, weak, or strong.
+
+
+Why are programming languages essential in technology and computer science?
+
+Which programming languages are crucial for data analysis and machine learning?
+
+What is the role of programming languages in web development?
+
+   
+What drives innovation in the field of programming languages?
+
+   
+What opportunities arise from proficiency in programming languages?
+
+
+Know the difference between a syntax error vs a semantic (logic) error?
+
+   
+What could be the result of a semantic error in your code?
+
+   
+Think about statically-typed languages and what they give us vs dynamically-typed languages
+
+   
+Discuss the relationship between syntax and semantics in programming languages and why both are crucial for writing reliable and functional software.
+
+   
+In compiled languages, what is the role of a compiler?
+
+What languages are known cross-platform portability due to the lack of a separate compilation step?
+
+   
+What is a major advantage of interpreted languages over compiled languages?
+
+   
+What optimizations might a compiler perform?
+
+Which virtual machines uses Just-In-Time compilation for performance?
+
+Compiled languages like \fillin[Go (Golang) and C++] are preferred for \fillin[performance-critical] applications.
+   
+Interpreted languages such as \fillin[Python and Perl] are often used for their \fillin[portability and ease of development].
+   
+
+Briefly explain the difference between semantic errors and syntax errors in the context of compiled versus interpreted languages.
+   
+In statically typed languages, what is required for variables?
+   
+What does dynamic typing prioritize over static typing?
+
+Static and Dynamic typing do checks when respictively?
+   
+In a weakly typed language you can ... ?
+In a strongly typed language you cannot ... ?
+   
+Explain in your own words what the difference is between static typing and dynamic typing.
+   
+Which of the following code samples is an example of procedural programming?
+In terms of programming paradigms, how would you classify this code?
+>Note: Given a code snippet identify if it is imperitive or procedural or oop.
+   
+What is the main characteristic that differentiates procedural programming from imperative programming?
+
+   
+What are attributes in Python?
+   
+Which of the following is a correct example of a function with annotated parameters in Python?
+   
+What are annotations in Python primarily used for?
+
+   
+What is the purpose of a decorator in Python?
+ 
+What is reflection in programming languages primarily used for?
+
+   
+Which Python function would you use to check if an object has an attribute?
+
+   
+In Python, how can you get a list of all function objects in a module?
+
+   
+What is the purpose of the  \mintinline{python}{__doc__} attribute in Python classes and functions?
+
+
+
+What does dynamic typing prioritize over static typing?
+
+What is the main characteristic that differentiates procedural programming from imperative programming?
+
+Is it possible for a single programming language to support multiple programming paradigms? Give examples of paradigm and language.
+
