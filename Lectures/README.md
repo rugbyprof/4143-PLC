@@ -6,6 +6,6 @@
 | ***<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Lectures/02_Intro-Programming-Languages">02_Intro-Programming-Languages</a>*** | ***<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Lectures/02_Intro-Programming-Languages">None</a>*** | ***<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Lectures/02_Intro-Programming-Languages">None</a>*** | ***<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Lectures/02_Intro-Programming-Languages">|   #   | Name                                                                               | Description                                                                         |</a>*** | ***<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Lectures/02_Intro-Programming-Languages">None</a>*** |  |
 | ***<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Lectures/Misc">Misc</a>*** | ***<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Lectures/Misc"> Placeholder Readme </a>*** | ***<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Lectures/Misc"> No Description</a>*** | ***<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Lectures/Misc">N/A</a>*** | ***<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Lectures/Misc">None</a>*** |  |
 
-<sup>Last Updated: 2023-11-02 (Thu @ 04:58)</sup> 
+<sup>Last Updated: 2023-11-07 (Tue @ 21:19)</sup> 
 
 <sup>***Days Left is only accurate if the `Last Updated` date is the same as todays date. Otherwise, use the due date!***</sup> 

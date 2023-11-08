@@ -5,4 +5,10 @@
 
 [02 Introduction To Programming Language Concepts](../../Lectures/02_Intro-Programming-Languages/README.md)
 
-Example questions and discussion on Tuesday November 7<sup>th</sup> 
+What does dynamic typing prioritize over static typing?
+
+
+imperative vs procedural
+
+decorators attributes / 
+
