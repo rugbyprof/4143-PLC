@@ -182,6 +182,12 @@ def say_hello():
 
 So, in a nutshell, attributes are properties that objects carry around, while annotations are extra info about the types used by functions that tools and libraries can use to do cool stuff. They're both a kind of metadata, but they're used in different ways. Decorators can work with annotations but are more about doing things with functions, like modifying or enhancing them.
 
+| Concept     | Description                                                                                                                                                                                                                                               |
+| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Attributes  | Values associated with an object, which can be data or functions (methods). For example, in a `Dog` class, `name` and `breed` would be attributes representing the dog's name and breed respectively. They are like variables that belong to an object.   |
+| Annotations | Metadata associated with function parameters and return values, introduced in Python 3.0. They can be used for documentation, type checking, etc., but don't affect program execution. Annotations can be any expression and are typically used as hints. |
+
+
 
 ## Goals
 
@@ -234,6 +240,5 @@ This is for goloang.
 
 paradigm clarification
 
-goals (summarize and filter)
 
 compiled vs interpreted -->
