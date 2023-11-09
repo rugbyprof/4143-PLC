@@ -175,6 +175,23 @@ def say_hello():
     return "Hello!"
 ```
 
+```python
+def response(func):
+    def wrapper(*args, **kwargs):
+        # get the size of the response
+        # create forward and backward links for pagination
+        # package those with the response
+        return result
+    return wrapper
+
+@response
+def api_call():
+    # access database
+    # get info
+    # return info
+```
+
+
 So, in a nutshell, attributes are properties that objects carry around, while annotations are extra info about the types used by functions that tools and libraries can use to do cool stuff. They're both a kind of metadata, but they're used in different ways. Decorators can work with annotations but are more about doing things with functions, like modifying or enhancing them.
 
 | Concept     | Description                                                                                                                                                                                                                                               |
@@ -303,9 +320,12 @@ What optimizations might a compiler perform?
 Which virtual machines uses Just-In-Time compilation for performance?
 
 Compiled languages like \fillin[Go (Golang) and C++] are preferred for \fillin[performance-critical] applications.
+
+Compiled languages like ______________________ are preferred for  ____________________ applications.
    
 Interpreted languages such as \fillin[Python and Perl] are often used for their \fillin[portability and ease of development].
-   
+
+Interpreted languages such as ________________________ are often used for their _________________________________________.
 
 Briefly explain the difference between semantic errors and syntax errors in the context of compiled versus interpreted languages.
    
@@ -348,10 +368,61 @@ In Python, how can you get a list of all function objects in a module?
 What is the purpose of the  \mintinline{python}{__doc__} attribute in Python classes and functions?
 
 
-
 What does dynamic typing prioritize over static typing?
 
 What is the main characteristic that differentiates procedural programming from imperative programming?
 
 Is it possible for a single programming language to support multiple programming paradigms? Give examples of paradigm and language.
 
+
+## Annotations v Decorators
+
+### Annotations
+
+Annotations in Python are used primarily for type hinting. They're a way to explicitly state the expected types of variables and function returns. This was a big deal when it was introduced in Python 3, as Python is a dynamically typed language where you don't normally declare variable types.
+
+Here's a simple example of using annotations:
+
+```python
+def add_numbers(a: int, b: int) -> int:
+    return a + b
+```
+
+In this function, `a: int` and `b: int` are annotations indicating that `a` and `b` should be integers, and `-> int` suggests that the function returns an integer.
+
+Annotations don't affect the runtime behavior of your code. They are mainly for readability and for tools like type checkers, linters, and IDEs. Python's flexibility also allows annotations to be used for other purposes, like providing metadata, but that's more of an advanced, non-standard use case.
+
+### Decorators
+
+Now, decorators are a whole different story. They're used to modify or extend the behavior of functions or methods, without changing their actual code. Decorators are a very powerful feature in Python, allowing for aspects of functional programming like higher-order functions.
+
+Here's an example of a decorator:
+
+```python
+def my_decorator(func):
+    def wrapper():
+        print("Something is happening before the function is called.")
+        func()
+        print("Something is happening after the function is called.")
+    return wrapper
+
+@my_decorator
+def say_hello():
+    print("Hello!")
+
+say_hello()
+```
+
+In this example, `@my_decorator` is used to "decorate" `say_hello()`. The `say_hello()` function gets wrapped inside the `wrapper()` function, allowing for code to be executed before and after `say_hello()`.
+
+### Key Differences
+
+1. **Purpose**: Annotations are for type hinting and providing metadata. Decorators are for altering behavior.
+   
+2. **Impact on Code**: Annotations don't change how your code runs. Decorators can significantly change how your functions behave.
+
+3. **Syntax**: Annotations use a colon (`:`) and arrow (`->`) syntax in function definitions. Decorators use the `@` symbol before a function definition.
+
+4. **Usage Context**: Annotations are used within function definitions and variable declarations. Decorators wrap around a function or method, affecting its invocation.
+
+In summary, annotations are like notes in your code, specifying types or other info, while decorators are like magic spells, changing how your functions work without altering their internal code. Both are awesome tools in Python's toolbox, serving different but equally valuable purposes!
