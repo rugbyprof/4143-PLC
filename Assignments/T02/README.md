@@ -346,7 +346,6 @@ In terms of programming paradigms, how would you classify this code?
    
 What is the main characteristic that differentiates procedural programming from imperative programming?
 
-   
 What are attributes in Python?
    
 Which of the following is a correct example of a function with annotated parameters in Python?
