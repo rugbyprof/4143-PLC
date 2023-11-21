@@ -1,0 +1,775 @@
+%\documentclass[12pt, addpoints]{exam}
+\documentclass[12pt, addpoints, answers]{exam}
+\usepackage[utf8]{inputenc}
+\usepackage{exam_style}
+
+% To print answers use the following line instead
+
+\newif\ifprintanswers
+% Uncomment the line below to print answers
+\printanswerstrue
+\newcommand{\fillin}[1]{%
+  \ifprintanswers
+    \textbf{#1}%
+  \else
+    \underline{\hspace{2mm}}%
+  \fi
+}
+
+
+\geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=10mm,
+ top=15mm,
+ }
+ 
+
+%%=================================================================%%
+%%=CLASS INFO======================================================%%
+\newcommand{\class}{4143 - PLC}
+\newcommand{\term}{Fall 2023}
+\newcommand{\examnum}{Exam Two}
+\newcommand{\examdate}{\today}
+\newcommand{\timelimit}{1:20min}
+
+\pagestyle{head}
+\firstpageheader{}{}{}
+\runningheader{\class}{\examnum\ - Page \thepage\ of \numpages}{Initials:$\rule{1cm}{0mm}$}
+\runningheadrule
+
+\begin{document}
+
+\noindent
+\begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r @{\extracolsep{6pt}} l}
+	\textbf{\class} & \textbf{Name:} & \makebox[2in]{\hrulefill}\\
+	\textbf{\term} &&\\
+	\textbf{\examnum} &&\\
+	\textbf{\examdate} &&\\
+	% \textbf{Time Limit: \timelimit} & Teaching Assistant & \makebox[2in]{\hrulefill}
+\end{tabular*}\\
+\\
+\rule[2ex]{\textwidth}{2pt}
+
+\noindent
+
+\begin{questions}
+				
+	% \printanswers
+				
+	%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@
+	%%%%%%%%%%%%% ONE @@@@@@@@@@@@@@@@@
+	%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@
+\section{Multiple Choice}
+
+
+
+	% Multiple Choice Questions
+	\question Why are programming languages essential in technology and computer science?
+	\begin{choices}
+		\choice They provide entertainment through games.
+		\choice They serve as decoration for computer systems.
+		\CorrectChoice They enable effective communication with computers and problem-solving.
+		\choice They are only necessary for web development.
+	\end{choices}
+				
+	\question Which programming languages are crucial for data analysis and machine learning?
+	\begin{choices}
+		\choice HTML and CSS
+		\CorrectChoice Python and R
+		\choice Java and C\#
+		\choice Swift and Kotlin
+	\end{choices}
+				
+	\question What is the role of programming languages in web development?
+	\begin{choices}
+		\choice They enhance the performance of hardware.
+		\CorrectChoice They are used to build diverse webpages and applications.
+		\choice They are mainly used for creating desktop applications.
+		\choice They are not used in web development.
+	\end{choices}
+				
+	\question What drives innovation in the field of programming languages?
+	\begin{choices}
+		\CorrectChoice The development of new languages for specific needs or emerging technologies.
+		\choice The maintenance of old programming languages.
+		\choice The decrease in the use of technology.
+		\choice The focus on a single programming language.
+	\end{choices}
+				
+	\question What opportunities arise from proficiency in programming languages?
+	\begin{choices}
+		\choice Decreased demand in the job market.
+		\choice Limited career paths.
+		\CorrectChoice High job security and competitive salaries.
+		\choice None of the above.
+	\end{choices}
+				
+	
+				
+	% \begin{parts}
+	%     \part Serves as an intermediary between humans and computers. \fillin[A]
+	%     \part Breaks down complex tasks into smaller steps. \fillin[B]
+	%     \part Enables the creation of operating systems and applications. \fillin[C]
+	%     \part Development of new languages for emerging technologies. \fillin[D]
+	%     \part Use of tools and libraries for processing large datasets. \fillin[F]
+	%     \part Offers job security and competitive salaries for those proficient in them. \fillin[G]
+	% \end{parts}
+				
+				
+	%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@
+	%%%%%%%%%%%%% TWO @@@@@@@@@@@@@@@@@
+	%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@
+	\newpage 
+	% Multiple Choice Questions
+	\question Which of the following is an example of a syntax error?
+	\begin{choices}
+		\choice Using a variable that has not been declared.
+		\choice Trying to divide by zero.
+		\CorrectChoice Missing a semicolon at the end of a statement.
+		\choice All of the above.
+	\end{choices}
+				
+	\question What would be the result of a semantic error in your code?
+	\begin{choices}
+		\choice The code will not compile.
+		\CorrectChoice The code compiles but does not do what it is intended to do.
+		\choice The code will become more optimized.
+		\choice The code will run faster.
+	\end{choices}
+				
+
+				
+
+				
+	\question In Go, to access a module's function, the \rule{3cm}{0.15mm}  operator is used.
+	\begin{choices}
+		\CorrectChoice The \textbf{. (dot)} operator is used.
+		\choice The \textbf{->} operator is used.
+		\choice The \textbf{[]} operator is used.
+		\choice The \textbf{\{\}}operator is used.
+	\end{choices}
+				
+
+		
+		
+	% \textbf{Language Features}\\
+	% Match the features to the correct programming language descriptions below:
+	% \begin{table}[H]
+	% 	\centering
+	% 	\setlength{\tabcolsep}{5pt} % Default value: 6pt
+	% 	\renewcommand{\arraystretch}{1.3} % Default value: 1
+	% 	\begin{tabular}{|c|l||c|l||c|l||c|l|}
+	% 		\hline
+	% 		\textbf{Letter} & \textbf{Goal} & \textbf{Letter} & \textbf{Goal} & \textbf{Letter} & \textbf{Goal} & \textbf{Letter} & \textbf{Goal} \\
+	% 		\hline
+	% 		A               & Readability   & F               & Expressiveness   & K               & Performance      & P       
+	% 		\end{table}
+						
+	% 		\begin{table}[H]
+	% 		\centering
+	% 		\begin{tabular}{|p{15.5cm}|c|}
+	% 		\hline
+	% 		\textbf{Description}                                                                & \textbf{Answer}            \\ \hline
+	% 	\end{tabular}
+	% \end{table}
+		
+		        
+
+				
+	%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@
+	%%%%%%%%%%%%% THREE @@@@@@@@@@@@@@@@@
+	%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@
+				
+	% Multiple Choice Questions
+	\question Which of the following is a statically typed and compiled language?
+	\begin{choices}
+		\choice Python
+		\choice Perl
+		\CorrectChoice Go (Golang)
+		\choice JavaScript
+	\end{choices}
+				
+	\question In compiled languages, what is the role of a compiler?
+	\begin{choices}
+		\choice To execute code line by line
+		\CorrectChoice To translate source code into machine code
+		\choice To interpret bytecode
+		\choice None of the above
+	\end{choices}
+				
+	\question Which language is known for its cross-platform portability due to the lack of a separate compilation step?
+	\begin{choices}
+		\choice C++
+		\choice Rust
+		\CorrectChoice Python
+		\choice Go (Golang)
+	\end{choices}
+				
+	\question What is a major advantage of interpreted languages over compiled languages?
+	\begin{choices}
+		\choice Higher execution speed
+		\CorrectChoice Ease of development and cross-platform compatibility
+		\choice More efficient memory usage
+		\choice All of the above
+	\end{choices}
+				
+	\question Which of the following optimizations might a compiler perform?
+	\begin{choices}
+		\CorrectChoice Dead code elimination
+		\choice Just-In-Time compilation
+		\choice Line by line interpretation
+		\choice Dynamic typing
+	\end{choices}
+				
+	\question What is the execution method of interpreted languages?
+	\begin{choices}
+		\choice Compilation to machine code before running
+		\CorrectChoice Execution of code line by line
+		\choice Both A and B
+		\choice None of the above
+	\end{choices}
+				
+	\question Which of the following virtual machines uses Just-In-Time compilation for performance?
+	\begin{choices}
+		\choice Python Virtual Machine (PVM)
+		\CorrectChoice Java Virtual Machine (JVM)
+		\choice Go (Golang)
+		\choice None of the above
+	\end{choices}
+				
+
+		
+						
+
+				
+	% Go (Golang)
+	% To translate source code into machine code
+	% Python
+	% Ease of development and cross-platform compatibility
+	% Dead code elimination
+	% Execution of code line by line
+	% Java Virtual Machine (JVM)
+	% Go (Golang) and C++, performance-critical
+	% Python and Perl, portability and ease of development
+	% A - Compiled, B - Interpreted, C - Compiled, D - Interpreted
+	% Short Answer: Semantic errors are logical errors in the code that allow it to compile but produce incorrect results, while syntax errors are mistakes in the code's structure that prevent the code from compiling. In interpreted languages, both types of errors are usually caught at runtime, while in compiled languages, syntax errors are caught during compilation, but semantic errors may not be identified until the program is executed.
+				
+	\question Semantic errors are errors in the code that:
+ 	\begin{choices}
+		\choice Will not allow the code to compile.
+		\CorrectChoice Allow it to compile but produce incorrect results.
+		\choice Can be Type-related errors that are caught during compilation.
+		\choice Are lexical connotations that are ill formed and expose syntactic deficiency's
+	\end{choices}
+
+	% \question Which of the following is true for statically-typed languages from a modern perspective?
+	% \begin{choices}
+	% 	\choice Syntax errors are more prevalent than semantic errors.
+	% 	\choice Type mismatch errors are considered syntax errors.
+	% 	\CorrectChoice Type mismatch errors can be considered semantic errors.
+	% 	\choice There is no distinction between syntax and semantics.
+	% \end{choices}
+ 
+	\question Which of the following statements is true about static typing?
+	\begin{choices}
+		\choice Type checking is performed at runtime.
+		\choice It allows implicit type changes.
+		\CorrectChoice Type-related errors are caught during compilation.
+		\choice All variables are untyped until runtime.
+	\end{choices}
+				
+	\question In statically typed languages, what is required for variables?
+	\begin{choices}
+		\CorrectChoice Explicit type declarations
+		\choice Variables can change types implicitly
+		\choice No type declarations are needed
+		\choice Type checking only at runtime
+	\end{choices}
+				
+	\question Which languages are examples of statically typed languages? (Choose two)
+	\begin{choices}
+		\choice Python
+		\choice JavaScript
+		\CorrectChoice Java
+		\CorrectChoice C++
+	\end{choices}
+
+        \newpage 
+				
+	\question What does dynamic typing prioritize over static typing?
+	\begin{choices}
+		\choice Early error detection
+		\choice Type safety
+		\CorrectChoice Development flexibility and speed
+		\choice Explicit type declarations
+	\end{choices}
+				
+
+	\question What does a “strongly typed” language enforce?
+	\begin{choices}
+		\choice Implicit type conversions
+		\choice Flexible type usage without explicit conversions
+		\CorrectChoice Strict type enforcement without mixing types without conversion
+		\choice None of the above
+	\end{choices}
+				
+	\question True or False: In a weakly typed language, you can add a string to an integer without explicitly converting one of them.
+	\begin{choices}
+		\CorrectChoice True
+		\choice False
+	\end{choices}
+
+ 	% Question 2
+	% \question What is the main characteristic that differentiates procedural programming from imperative programming?
+	% \begin{choices}
+	% 	\choice Procedural programming cannot use loops or conditionals.
+	% 	\choice Procedural programming must use classes and objects.
+	% 	\CorrectChoice Procedural programming uses functions to encapsulate blocks of code.
+	% 	\choice Procedural programming does not allow for variables to be changed.
+	% \end{choices}
+
+
+	\question What is reflection in programming languages primarily used for?
+	\begin{choices}
+		\choice Optimizing code execution at compile time.
+		\choice Hardcoding the structure and behavior of a program.
+		\CorrectChoice Examining and modifying a program's structure and behavior at runtime.
+		\choice Increasing the compile-time type safety of a program.
+	\end{choices}
+				
+	\question What is the output of the following Python code?
+	\begin{minted}[linenos=false]{python}
+		class MyClass:
+		    def __init__(self):
+		        self.x = 10
+								
+		setattr(MyClass, 'y', 20)
+		obj = MyClass()
+		print(obj.y)
+	\end{minted}
+	\begin{choices}
+		\choice AttributeError
+		\choice 10
+		\choice None
+		\CorrectChoice 20
+	\end{choices}
+				
+	% \question Which Python function would you use to check if an object has an attribute?
+	% \begin{choices}
+	% 	\choice type()
+	% 	\choice issubclass()
+	% 	\CorrectChoice hasattr()
+	% 	\choice getattr()
+	% \end{choices}
+				
+	\question In Python, how can you get a list of all function objects in a module?
+	\begin{choices}
+		\choice Using the \mintinline{python}{dir()}  function on the module.
+		\choice By iterating over the module's \mintinline{python}{__dict__} attribute.
+		\choice By manually inspecting the module's source code.
+		\CorrectChoice Using the \mintinline{python}{inspect.getmembers()} function with \mintinline{python}{inspect.isfunction()} .
+	\end{choices}
+				
+	\question What is the purpose of the  \mintinline{python}{__doc__} attribute in Python classes and functions?
+	\begin{choices}
+		\choice To set the name of the class or function.
+		\choice To optimize the runtime performance.
+		\CorrectChoice To store the docstring of the class or function.
+		\choice To declare private member variables.
+	\end{choices}
+				
+
+	\question Consider the following Python code snippet:
+	\begin{minted}[linenos=false]{python}
+		total = 0
+		for i in range(5):
+		      quad total += i
+	\end{minted}
+				
+	In terms of programming paradigms, how would you classify this code?
+	\begin{choices}
+		\choice Procedural programming because it uses a for-loop.
+		\CorrectChoice Imperative programming because it sequentially changes the program state.
+		\choice Object-oriented programming because it uses Python's built-in range function.
+		\choice Functional programming because it calculates a sum.
+	\end{choices}
+				
+				
+	%%%%%ATTRIBUTES AND ANNOTATIONS%%%%%%
+				
+	\question What are attributes in Python?
+	\begin{choices}
+		\choice Functions that are applied to class methods.
+		\choice External libraries for type checking.
+		\CorrectChoice Values associated with an object, such as data or methods.
+		\choice Metadata for optimizing Python code execution.
+	\end{choices}
+				
+	\question Which of the following is a correct example of a function with annotated parameters in Python?
+	\begin{choices}
+		\choice 
+		\begin{minted}[linenos=false]{python}
+        def greet(name): 
+             return 'Hello ' + name 
+		\end{minted}
+		\choice 
+		\begin{minted}[linenos=false]{python}
+        def greet(name: 'name should be a string'): 
+             return 'Hello ' + name
+		\end{minted}
+		\CorrectChoice 
+		\begin{minted}[linenos=false]{python}
+        def greet(name: str) -> str: 
+             return 'Hello ' + name
+		\end{minted}
+		\choice
+		\begin{minted}[linenos=false]{python}
+        def greet(name) -> str: 
+             return 'Hello ' + name: str
+		\end{minted}
+	\end{choices}
+				
+	\question What are annotations in Python primarily used for?
+	\begin{choices}
+		\choice Changing the way a function executes.
+		\CorrectChoice Providing metadata such as type hints to tools and libraries.
+		\choice Storing values that an object will use during execution.
+		\choice Decorating functions to add additional functionality.
+	\end{choices}
+				
+	\question What is the purpose of a decorator in Python?
+	\begin{choices}
+		\CorrectChoice To modify or enhance the behavior of a function or method.
+		\choice To provide a strict type system for Python variables.
+		\choice To annotate the parameters of any function with metadata.
+		\choice To optimize Python code for better performance.
+	\end{choices}
+
+	\question Which of the following code samples is an example of procedural programming?
+	\begin{choices}
+		\choice
+		\begin{minted}[linenos=false]{python}
+			x = 10 
+			y = 20 
+			sum = x + y 
+			print(sum) 
+		\end{minted}
+		\CorrectChoice 
+		\begin{minted}[linenos=false]{python}
+			def calculate_sum(x, y): 
+			    return x + y 
+			print(calculate_sum(10, 20)) 
+		\end{minted}
+		\choice Both A and B
+		\choice Neither A nor B
+	\end{choices}
+				
+\newpage
+\newpage 
+\Huge 
+\hspace{-1.5cm}
+\fontfamily{lmtt}
+\textbf{Fill In the Blanks}\\
+\fontfamily{phv}
+\normalsize 
+
+
+\begin{table}[ht]
+\centering
+\large
+\textbf{Word Choices}\\
+\vspace{.5cm}
+\small
+\setlength{\tabcolsep}{5pt} % sets padding between columns
+\renewcommand{\arraystretch}{1.5} % sets padding between rows
+\begin{tabular}{|m{3cm}|m{3cm}|m{3cm}|m{3cm}|m{3cm}|}
+\hline
+Annotations & Attributes & Byte Code & C++ & Compile Time \\ \hline
+Decorators & Development Speed & Dynamic Typing & Encapsulation & Go \\ \hline
+Imperative & Inheritance & Lexical & OOP & Performance \\ \hline
+Perl & Portability & Procedural & Properties & Python \\ \hline
+Reflection & Run Time & Semantics & Static Typing & Strongly Typed \\ \hline
+Syntax & Type-Safe & Virtual Machine & Weakly Typed &  \\ \hline
+\end{tabular}
+\end{table}
+
+Use the words above to assist you into entering the correct response for the questions below. Of course there are more than necessary. But all the correct answers are in the table.
+
+\large
+
+\question Compiled languages like \fillin[Go (Golang)] and \fillin[C++] are preferred when developing applications that need to have \fillin[Performance] rather than ease of development.
+            
+\question Interpreted languages such as \fillin[Python] \& \fillin[Perl] are often used for their \fillin[Portability] and \fillin[Development] \fillin[Speed] which is a direct contrast to compiled languages.
+				
+\question Dynamic typing performs type checking during \fillin[Run Time], whereas static typing performs it during \fillin[Compile Time].
+
+\question In programming, \fillin[Syntax]  defines how you write the code, whereas \fillin[Semantics]  is about the meaning behind the code you write.
+				
+\question The operation of adding two integers together in programming is defined by the \fillin[Semantics] of the language.
+
+\question Forgetting a semicolon when writing a C++ solution would violate the  \fillin[Syntax] of the language.
+
+\question Values associated with an object, such as data or functions, that are like variables for an object are called \fillin[Attributes].			
+			
+\newpage 
+\Huge 
+\hspace{-1.3cm}
+\fontfamily{lmtt}
+\textbf{Matching}\\
+\fontfamily{phv}
+\normalsize 
+
+		
+\LARGE 
+\hspace{-1.3cm}
+\fontfamily{lmtt}
+\textbf{Language Features}\\
+% \vspace{5mm}\\
+\fontfamily{phv}
+\small 
+\question \textbf{Match the features to the correct programming language descriptions below:}
+	\begin{table}[H]
+		\centering
+		\setlength{\tabcolsep}{5pt} % Default value: 6pt
+		\renewcommand{\arraystretch}{1.3} % Default value: 1
+		\begin{tabular}{|c|l||c|l||c|l||c|l|}
+			\hline
+			\textbf{Letter} & \textbf{Goal} & \textbf{Letter} & \textbf{Goal}    & \textbf{Letter} & \textbf{Goal}    & \textbf{Letter} & \textbf{Goal}   \\
+			\hline
+			A               & Readability   & F               & Expressiveness   & K               & Performance      & P               & Maintainability \\ \hline
+			B               & Efficiency    & G               & Safety           & L               & Paradigm Support & Q               & Security        \\ \hline
+			C               & Portability   & H               & Community        & M               & Standardization  & R               & Ecosystem       \\ \hline
+			D               & Scalability   & I               & Interoperability & N               & Ease of Learning & -               & -               \\ \hline
+			E               & Abstraction   & J               & Conciseness      & O               & Specialization   & -               & -               
+			\\ \hline
+		\end{tabular}
+	\end{table}
+				
+	\begin{table}[H]
+		\centering
+\small
+\setlength{\tabcolsep}{5pt} % sets padding between columns
+\renewcommand{\arraystretch}{1} % sets padding between rows
+		\begin{tabular}{|c|p{13.5cm}|c|}
+			\hline
+			     \#        & \textbf{Description}                                                                & \textbf{Answer}            \\ \hline
+		\textbf{	a.} & Code can run on multiple platforms, often through VMs or interpreters.              & \rule{0pt}{.8cm}\fillin[C] \\ \hline
+		\textbf{	b.} & Allows developers to write code with maximum control over system resources.         & \rule{0pt}{.8cm}\fillin[K] \\ \hline
+		\textbf{	c.} & Tailored to specific programming paradigms like OOP or functional programming.      & \rule{0pt}{.8cm}\fillin[L] \\ \hline
+		\textbf{	d.} & Prioritizes a syntax and structure that make code easy to understand and maintain.  & \rule{0pt}{.8cm}\fillin[A] \\ \hline
+		\textbf{	e.} & Supports development from small scripts to large systems, enabling growth.          & \rule{0pt}{.8cm}\fillin[D] \\ \hline
+		\textbf{	f.} & Focused on reducing verbosity and promoting clear developer intentions.             & \rule{0pt}{.8cm}\fillin[F] \\ \hline
+		\textbf{	g.} & Aims to prevent common errors and protect against vulnerabilities.                  & \rule{0pt}{.8cm}\fillin[G] \\ \hline
+		\textbf{	h.} & Ensures that a language has a wide range of libraries and an active developer base. & \rule{0pt}{.8cm}\fillin[H] \\ \hline
+		\textbf{	i.} & Designed for seamless operation with other programming languages.                   & \rule{0pt}{.8cm}\fillin[I] \\ \hline
+		\textbf{	j.} & Aims for succinct code that reduces errors and is easy to comprehend.               & \rule{0pt}{.8cm}\fillin[J] \\ \hline
+		\textbf{	k.} & Ensures consistency and avoids fragmentation across different platforms.            & \rule{0pt}{.8cm}\fillin[M] \\ \hline
+		\textbf{	l.} & Simple syntax and a gentle learning curve for new programmers.                      & \rule{0pt}{.8cm}\fillin[N] \\ \hline
+		\textbf{	m.} & Created for specific tasks, like database management or scientific calculations.    & \rule{0pt}{.8cm}\fillin[O] \\ \hline
+		\end{tabular}
+	\end{table}
+				
+				
+
+				
+	% If you're using the exam class, you can add the following for an answer line:
+	% \fillin[width=1cm]
+				
+	%%%%%%%%%%%GOLANG GOALS%%%%%%%%%%%%%%
+\newpage 
+\LARGE 
+\hspace{-1.3cm}
+\fontfamily{lmtt}
+\textbf{GoLang Goals}\\
+\fontfamily{phv}
+\normalsize 
+
+\begin{table}[ht]
+\centering
+\small
+\setlength{\tabcolsep}{5pt} % sets padding between columns
+\renewcommand{\arraystretch}{1.5} % sets padding between rows
+\begin{tabular}{|m{0.4cm}|m{4cm}|m{0.4cm}|m{4cm}|m{0.4cm}|m{4cm}|}
+\hline
+A & Simplicity and Clarity & B & Efficiency & C & Concurrent / Parallel Programming \\ \hline
+D & Safety & E & Robust Standard Library & F & Strong Typing and Static Compilation \\ \hline
+G & Built-in Concurrency Primitives & H & Tooling & I & Cross-Platform Compatibility \\ \hline
+J & Garbage Collection & K & Orthogonality & L & Open Source and Community-Driven \\ \hline
+\end{tabular}
+\end{table}
+
+	\vspace{2mm} % Adds some space between the table and the descriptions
+				
+	\question \textbf{Match the following descriptions with the Golang goals from the table above:}
+	% \vspace{mm}
+	\begin{table}[h]
+		\centering
+\small
+\setlength{\tabcolsep}{5pt} % sets padding between columns
+\renewcommand{\arraystretch}{1} % sets padding between rows
+		\begin{tabular}{|c|p{12cm}|c|}
+			\hline
+			\#  & \textbf{Description}                                                                             & \textbf{Answer}            \\ \hline
+		\textbf{	a.}  & Focuses on clean and minimalistic syntax for better readability.                                 & \rule{0pt}{.8cm}\fillin[A] \\ \hline
+		\textbf{	b.}  & Targets quick compilation and fast runtime performance.                                          & \rule{0pt}{.8cm}\fillin[B] \\ \hline
+		\textbf{	c.}  & Facilitates writing scalable and efficient software that runs concurrently.                      & \rule{0pt}{.8cm}\fillin[C] \\ \hline
+		\textbf{	d.}  & Prioritizes the reduction of common programming errors through features like garbage collection. & \rule{0pt}{.8cm}\fillin[D] \\ \hline
+		\textbf{	e.}  & Provides extensive built-in functionalities for a wide range of programming needs.               & \rule{0pt}{.8cm}\fillin[E] \\ \hline
+		\textbf{	f.}  & Catches errors at compile time with a reliable type system.                                      & \rule{0pt}{.8cm}\fillin[F] \\ \hline
+		\textbf{	g.}  & Embeds concurrency models in the language itself for easier parallel programming.                & \rule{0pt}{.8cm}\fillin[G] \\ \hline
+		\textbf{	h.}  & Includes a complete set of tools for code formatting, management, and testing.                   & \rule{0pt}{.8cm}\fillin[H] \\ \hline
+		\textbf{	i.}  & Allows code to be compiled on different platforms without changes.                               & \rule{0pt}{.8cm}\fillin[I] \\ \hline
+		\textbf{	j.} & Automates memory management to ease the development process.                                     & \rule{0pt}{.8cm}\fillin[J] \\ \hline
+		\textbf{	k.} & Promotes code with separated concerns for maintainability.                                       & \rule{0pt}{.8cm}\fillin[K] \\ \hline
+		\textbf{	l.} & Benefits from community contributions and an open-source ecosystem.                              & \rule{0pt}{.8cm}\fillin[L] \\ \hline
+		\end{tabular}
+	\end{table}
+	\newpage
+ 
+        \LARGE 
+        \hspace{-1.3cm}
+        \fontfamily{lmtt}
+        \textbf{Language Types}\\
+        \fontfamily{phv}
+        \normalsize 
+	\question \textbf{Match the following languages with their type:} \\
+	\textbf{A = }Compiled \\
+	\textbf{B = }Interpreted \\
+	\textbf{C = }Combination \\
+		
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{|c|p{7cm}|c|}
+			\hline
+			  & \textbf{Language} & \textbf{Type}             \\ \hline
+		\textbf{	a.} & C\#               & \rule{0pt}{8mm}\fillin[C] \\ \hline
+		\textbf{	b.} & Python            & \rule{0pt}{8mm}\fillin[B] \\ \hline
+		\textbf{	c.} & C++               & \rule{0pt}{8mm}\fillin[A] \\ \hline
+		\textbf{	d.} & Perl              & \rule{0pt}{8mm}\fillin[B] \\ \hline
+		\textbf{	e.} & Javascript        & \rule{0pt}{8mm}\fillin[B] \\ \hline
+		\textbf{	f.} & Java              & \rule{0pt}{8mm}\fillin[C] \\ \hline
+		\textbf{	g.} & Go (Golang)       & \rule{0pt}{8mm}\fillin[A] \\ \hline
+		\end{tabular}
+	\end{table}
+
+\rule{6in}{2pt}
+  
+	\question \textbf{Match the following language characteristics with their respective typing discipline.}\\
+ \\
+	\textbf{S = }Static Typing\\
+	\textbf{D = }Dynamic Typing\\
+				
+	\begin{table}[H]
+		\centering
+\centering
+\normalsize
+\setlength{\tabcolsep}{5pt} % sets padding between columns
+\renewcommand{\arraystretch}{1} % sets padding between rows
+		\begin{tabular}{|c|p{11cm}|c|}
+			\hline
+			&\textbf{Characteristic} & \textbf{Discipline} \\ \hline
+		\textbf{	a.} & Implicit type conversion                    & \rule{0pt}{1cm}\fillin[D] \\ \hline
+		\textbf{	b.} & Requires explicit type declarations         & \rule{0pt}{1cm}\fillin[S] \\ \hline
+		\textbf{	c.} & Prioritizes early error detection           & \rule{0pt}{1cm}\fillin[S] \\ \hline
+		\textbf{	d.} & Allows variables to change types implicitly & \rule{0pt}{1cm}\fillin[D] \\ \hline
+		\textbf{	e.} & Prioritizes development flexibility         & \rule{0pt}{1cm}\fillin[D] \\ \hline
+		\end{tabular}
+	\end{table}
+
+\newpage
+% Matching Questions
+% 	\question \textbf{Match the following descriptions with the corresponding aspects of programming languages:}
+				
+% 	\begin{table}[H]
+	
+% \footnotesize
+% \setlength{\tabcolsep}{5pt} % sets padding between columns
+% \renewcommand{\arraystretch}{1.5} % sets padding between rows
+% 		\begin{tabular}{|c|l|}
+% 			\hline
+% 			A & Communication with Computers       \\
+% 			\hline
+% 			B & Problem Solving                    \\
+% 			\hline                   
+% 			C & Software Development               \\
+% 			\hline              
+% 			D & Innovation                         \\
+% 			\hline                        
+% 			E & Web Development                    \\
+% 			\hline                   
+% 			F & Data Analysis and Machine Learning \\
+% 			\hline 
+% 			G & Career Opportunities        \\
+% 			\hline
+% 		\end{tabular}
+% 	\end{table}
+	
+	 
+% 	\begin{table}[h]
+% 		\centering
+% \normalsize
+% \setlength{\tabcolsep}{5pt} % sets padding between columns
+% \renewcommand{\arraystretch}{1} % sets padding between rows
+% 		\begin{tabular}{|c|p{13cm}|c|}
+% 			\hline
+% 			   & \textbf{Description}                                                       & \textbf{Answer}           \\ \hline
+% 			1. & Serves as an intermediary between humans and computers.                    & \rule{0pt}{1cm}\fillin[A] \\ \hline
+% 			2. & Breaks down complex tasks into smaller steps.                              & \rule{0pt}{1cm}\fillin[B] \\ \hline
+% 			3. & Enables the creation of operating systems and applications.                & \rule{0pt}{1cm}\fillin[C] \\ \hline
+% 			4. & Development of new languages for emerging technologies.                    & \rule{0pt}{1cm}\fillin[D] \\ \hline
+% 			5. & Use of tools and libraries for processing large datasets.                  & \rule{0pt}{1cm}\fillin[F] \\ \hline
+% 			6. & Offers job security and competitive salaries for those proficient in them. & \rule{0pt}{1cm}\fillin[G] \\ \hline
+% 		\end{tabular}
+% 	\end{table}
+
+ % 	\begin{tabular}{|l|l|l|}
+	% 	\hline
+	% 	A & Comments                 &   \\
+	% 	B & Variables and Data Types &   \\
+	% 	C & Operators                &   \\
+	% 	D & Control Structures       &   \\
+	% 	\hline
+	% \end{tabular}
+				
+	% \begin{parts}
+	% 	\part Not executed, used for explanations or notes within the code. \fillin[A]
+	% 	\part Syntax for declaring and initializing variables. \fillin[B]
+	% 	\part Syntax for mathematical and logical operations. \fillin[C]
+	% 	\part Syntax for control flow, including conditional statements and loops. \fillin[D]
+	% \end{parts}
+
+	% \begin{tabular}{|c|l|}
+	% 	\hline
+	% 	\textbf{Letter} & \textbf{Goal}                                                                                                    \\
+	% 	\hline
+	% 	A               & Values associated with an object, such as data or functions, that are like variables for an object.              \\ \hline
+	% 	B               & Metadata associated with function parameters and return values, used for documentation, type checking, and more. \\ \hline
+	% \end{tabular}
+				
+	% \textbf{Match the following descriptions to the correct concept. Write the letter corresponding to the correct concept in the blank space provided.}
+
+
+\newpage 
+\Huge 
+\hspace{-1.5cm}
+\fontfamily{lmtt}
+\textbf{Short Answer}\\
+\fontfamily{phv}
+\normalsize 
+
+
+
+\question Explain in your own verbiage what the following four words mean and how they relate. Give language names and code examples to bolster your discussion. The words are: \textbf{Dynamic}, \textbf{Static}, \textbf{Weak}, \textbf{Strong}. \
+% \begin{solutionorlines}[2in]
+
+% \end{solutionorlines}
+
+\question Give a decent explanation of something you studied but wasn't on the exam. I cannot promise lots of points, but, if it is a good explanation it can really help you. 
+% \begin{solutionorlines}[2in]
+
+% \end{solutionorlines}
+	
+    
+\end{questions}
+\end{document}

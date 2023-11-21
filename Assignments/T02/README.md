@@ -352,7 +352,6 @@ Which of the following is a correct example of a function with annotated paramet
    
 What are annotations in Python primarily used for?
 
-   
 What is the purpose of a decorator in Python?
  
 What is reflection in programming languages primarily used for?
