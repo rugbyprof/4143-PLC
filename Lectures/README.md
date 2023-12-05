@@ -7,6 +7,6 @@
 | ***<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Lectures/Javascript">Javascript</a>*** | ***<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Lectures/Javascript">None</a>*** | ***<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Lectures/Javascript">None</a>*** | ***<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Lectures/Javascript">None</a>*** | ***<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Lectures/Javascript">N/A</a>*** |  |
 | ***<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Lectures/Misc">Misc</a>*** | ***<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Lectures/Misc"> Placeholder Readme </a>*** | ***<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Lectures/Misc"> No Description</a>*** | ***<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Lectures/Misc">None</a>*** | ***<a href="https://github.com/rugbyprof/4143-PLC/tree/master/Lectures/Misc">N/A</a>*** |  |
 
-<sup>Last Updated: 2023-12-05 (Tue @ 02:18)</sup> 
+<sup>Last Updated: 2023-12-05 (Tue @ 02:22)</sup> 
 
 <sup>***Days Left is only accurate if the `Last Updated` date is the same as todays date. Otherwise, use the due date!***</sup> 
